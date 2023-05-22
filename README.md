@@ -172,7 +172,9 @@ The file was completed using a text editor and web browser before being deployed
   - Create project in GitHub.
   - Upload files to project page.
   - Navigate to Settings in the GitHub repository.
+  - Select "Pages" from the left hand menu.
   - Select the Master Branch from the source section drop-down menu.
+  - Select "Save"
 
 The live Github link can be found here: <https://rchrdmess.github.io/RM_Milestone_Project_1/>
 
