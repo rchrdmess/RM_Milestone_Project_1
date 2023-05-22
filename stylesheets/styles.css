@@ -43,10 +43,6 @@ cursor: pointer;
 text-decoration: none;
 }
 
-.nav_bar a:hover { /* This is used to make the navigation bar text bold. When hovered over. */
-font-weight:  bold;
-}
-
 /* --- HOME SECTION SETTINGS ---- */
 
 .home { /* The home section behaviour and background is controlled here. */
@@ -732,17 +728,17 @@ input[type=submit]:hover {
 
 ::placeholder {
 color: #662211;
-font-size:12px;
+font-size:10px;
 }
 
 :-ms-input-placeholder {
 color: #662211;
-font-size:12px;
+font-size:10px;
 }
 
 ::-ms-input-placeholder {
 color: #662211;
-font-size:12px;
+font-size:10px;
 }
 
 .container {
