@@ -474,7 +474,7 @@ a { /* This matches the style of links with the style of text. */
 font-size: 14px;
 cursor: pointer;
 text-decoration: none;
-padding: 10px;
+padding: 7px;
 }
 
 a:hover { /* Behaviour when hovering on a link. */
@@ -528,8 +528,8 @@ max-width:75%;
 }
 .home {
 background-image: url('../background_pics/home_pic.png');
-background-position: 90% 92.75%;
-background-size: 315px 243px;
+background-position: 80% 99%;
+background-size: 48% 35%;
 }
 .team_column, .team_column.side, .team_column.middle {
 background-image: url('../background_pics/office_narrow.jpeg');
@@ -542,7 +542,7 @@ background-image:none;
 }
 .graph { /* This controls the location of the graph image on smaller screens. */
 position: absolute;
-left: 73%;
+left: 63%;
 top: 60%;
 max-width: 35%;
 z-index: 2;
