@@ -4,7 +4,7 @@
 
 body {  /* The website's background colour and standard font style are defined here. */
 font-family:  Helvetica, avenir, verdana, arial, sans-serif;
-background-color: yellow;
+background-color: #425eac;
 font-size: 14px;
 color: white;
 }
@@ -28,7 +28,7 @@ z-index: 2; /* Z index is used to allow the sections to scroll beneath the nav b
 .nav_bar a { /* Links in the top navigation bar are controlled here. */
 float: right;
 cursor: pointer;
-font-size: 12.5px;
+font-size: 12px;
 text-decoration: none;
 }
 
@@ -51,9 +51,9 @@ font-weight:  bold;
 
 .home { /* The home section behaviour and background is controlled here. */
 background-image: url('../background_pics/home_pic.png');
-background-size: 45% 50%;
+background-size: 40% 45%;
 background-repeat: no-repeat;
-background-position: 90% 80%;
+background-position: 90% 85%;
 position: absolute;
 width: 100%;
 text-align: left;
@@ -240,8 +240,8 @@ background-image: url('../background_pics/timeline.jpeg');
 background-size: 100% 100%;
 background-repeat: no-repeat;
 background-position: 100% 100%;
-border-top:2px solid #FED1B3;
-border-bottom:12px solid #FED1B3;
+border-top:2px solid #f1d6a3;
+border-bottom:12px solid #f1d6a3;
 color: #662211;
 margin: 5%;
 text-align: center;
