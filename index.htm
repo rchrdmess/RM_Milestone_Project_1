@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<!-- html tag includes opengraph declaration for meta tags -->
+<html lang="en" prefix="og: https://ogp.me/ns#">
+<!-- Head contains title, meta tag info, favicon info and stylesheets. It is the same for each page.  -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Market-Win</title>
+<link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png">
+<meta name="description" content="Turn your marketing into a market win.">
+<meta name="keywords" content="Marketing, digital marketing, marketing agencies, digital marketing agencies, market win, winning marketing, market-win">
+<meta property="og:title" content="Turn your marketing into a market win.">
+<meta property="og:url" content="https://www.market-win.co.uk">
+<meta property="og:description" content="Turn your marketing into a market win.">
+<meta property="og:image" content="https://www.market-win.co.uk/logos/SLOGORED.png">
+<meta property="og:site_name" content="Market-Win">
+<meta property="og:locale" content="en_GB">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:type" content="website">
+<meta name="twitter:title" content="Market-Win">
+<meta name="twitter:description" content="Turn your marketing into a market win.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://www.market-win.co.uk/logos/SLOGORED.png">
+<meta name="twitter:image:alt" content="Market-Win">
+<meta name="twitter:site" content="@Market-Win">
+<link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="stylesheets/styles.css">
+<!-- Third party stylesheets have been used to enable certain icons. -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<script src="https://kit.fontawesome.com/04887afb98.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- The first main division is for the navigation bar, which contains links to all the sections on the main page and the contact form. It is fixed to the top of the page and is the same on every page. -->
+<div class="nav_bar" role="navigation">
+<a class="split" id="myBtn" role="button" aria-label="To schedule a meeting. Click this"><span style="font-size:18px;">Schedule a meet  <i class='far fa-comments'></i></span></a>
+<a href="index.htm#contact" role="button">Contact</a>
+<a href="index.htm#about" role="button">About</a>
+<a href="index.htm#team" role="button">Team</a>
+<a href="index.htm#services" role="button">Services</a>
+<a href="index.htm" aria-label="home" role="button"><i class='fas fa-home'></i></a>
+</div>
+<div class="all"><br><br>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The template for the Modal content below was taken from W3 Schools and adjusted to suit Market-Win's purposes. -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">x</span>
+     <p class="mod"><u>Book now</u>! And turn your marketing into a ... market win<br><br><img src="logos/croppedlogowht.png" alt="Market Win" aria-label="The Market-Win Logo."></p>
+    </div>
+    <div class="modal-body">
+<!--
+Here is the container for the form within the modal. It contains data inputs for various text, dropdown selectors, radio buttons and the option to upload files. Rules have been applied to maintain the quality of the data provided by the user and these are conveyed if not followed correctly. For now, delivery method has been set to post and validation requirements have been put in place to prevent hacking.
+-->
+<div class="container">
+<form action="/request.php" method="post" name="contact_form" onsubmit="return validateForm()" autocomplete="on">
+<input type="text" id="title" name="title" maxlength="15" placeholder="Please provide your title (Mr/Mrs/Miss) ..." pattern="[A-Za-z.]{2,}" title="Cannot contain numbers or symbols except '.'" required aria-required="true">
+<br>
+<input type="text" id="fname" name="firstname" maxlength="15" placeholder="Please provide your first name ..." pattern="[A-Za-z-']{2,}" title="Cannot contain numbers or symbols except ' or -" required aria-required="true">
+<br>
+<input type="text" id="lname" name="lastname" maxlength="20" placeholder="Please provide your Last name ..." pattern="[A-Za-z-']{2,}" title="Cannot contain numbers or symbols except ' or -" required aria-required="true">
+<br>
+<input type="tel" id="phone" name="phone" maxlength="15" placeholder="Please provide your Phone number ..." pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" title="Must be a valid phone number" required aria-required="true">
+<br>
+<input type="email" id="email" name="email" maxlength="50" placeholder="Please provide your Email address ..." pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Must be a valid email address" required aria-required="true">
+<br>
+<input type="text" id="company" name="company" maxlength="25" placeholder="Please provide your Organisation ..." pattern="[A-Za-z0-9-'.#@!$%£&?]{2,}">
+<br>
+<div class="form_text">Let's meet by: <input type="checkbox" id="method1" name="phone" value="phone"><label for="method1">Phone</label>  <input type="checkbox" id="method2" name="email" value="email"><label for="method2">Email</label>  <input type="checkbox" id="method3" name="video" value="video"><label for="method3">Video</label>  <input type="checkbox" id="method4" name="office" value="office" required><label for="method4">Office</label><br><label for="service">I require: </label><input type="text" list="servicel" name="service" id="service" placeholder="Please select ..." required aria-required="true">
+<datalist id="servicel">
+<option value="Social Media">
+<option value="S.E.O.">
+<option value="Content Marketing">
+<option value="Everything you've got!">
+<option value="I don't know yet!">
+</datalist>
+</div>
+<div class="form_text"><label for="apptd">Choose a time: </label><input type="date" id="apptd" name="Apt">   <input type="time" id="apptt" name="Apt"></div>
+<div class="form_text"><label for="myfile">If you have a brief, please attach it here: </label><input type="file" id="myfile" name="myfile"></div>
+<input type="submit" formenctype="application/x-www-form-urlencoded" value="Book Meeting">
+</form>
+</div>
+</div>
+<div class="modal-footer">
+<br>
+</div>
+</div>
+</div>
+<!-- Here is the script for how the modal behaves when its link is clicked. Again, this has been taken from W3 Schools. -->
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+<!--
+The navigation bar division ends here. Below it is the first information section, which has been called "home".
+It contains the company logo and slogan; visual cues and information supporting the company's proficiency.
+-->
+<div class="home" aria-label="Welcome to Market-Win's website. This is the home"><br>
+<!-- Each section of the main page is considered as a row and split into columns to allow for media queries and stacking on smaller screens. As below, the row divisions are denoted by an abbreviation of the section name and end in an "r". -->
+<div class="home_r">
+<!-- Each column within the row is defined by the same abbreviation and its position denoted as "middle" or "side". -->
+<div class="home_column">
+<!-- A further styling division is included within each column to allow for different styling and information sub-sections to improve the display of information.
+This is actioned through the use of classes. (See stylesheet "Styles.css".)
+-->
+<div class="home_column_style">
+<img src="logos/home_logo.gif" alt="MARKET WIN LOGO" aria-label="Market-Win Logo">
+<img class="graph" src="background_pics/graph.jpeg" alt="Performance Chart" aria-label="A graph to demonstrate Market-Win's cost effectiveness. In the back ground of this group, there is a picture of a woman sitting at a desk deep in thought.">
+</div>
+</div>
+<div class="home_column side">
+<div class="home_column_style">
+<h3>We make marketing<br>a <em>market win</em>.</h3>
+</div>
+</div>
+</div>
+<hr id="services">
+<!--
+The second section of the main page starts here.
+-->
+<div class="services" aria-label="Market-Win's Services">
+<div class="services_r">
+<!-- Column 1 within the section. -->
+<div class="services_column">
+<div class="services_column_style">
+<img src="service_pics/socialmedia.jpg" alt="Social Media" aria-label="The image representing our first area of expertize, Social Media, contains many social media company's logos crowded into the shape of a speech bubble. It is followed by the heading">
+<p class="services_headings_style">Social Media<p>
+<p aria-label="and some information detailing how we view Social media and its importance: No matter how you choose to connect with your customer base, we boast in-house experts for every social media platform, meaning we can get you engaged across the digital landscape..">No matter how you choose to connect with your customer base, we boast in-house experts for every social media platform, meaning we can get you engaged across the digital landscape.</p></div>
+</div>
+<!-- End of column 1 start of column 2. -->
+<div class="services_column middle">
+<div class="services_column_style">
+<img src="service_pics/seo.jpg" alt="SEO" aria-label="A pictorial representation of the facets of search engine optimisation.">
+<p class="services_headings_style">S.E.O.<p>
+<p>In this day and age, if you're not visible online, you may as well not exist. The more web traffic you drive to your website, the more leads you gain and the greater your chances of generating business.</p></div>
+</div>
+<!-- End of column 2 start of column 3. -->
+<div class="services_column side">
+<div class="services_column_style">
+<img src="service_pics/contentmarketing.jpg" alt="Content Marketing" aria-label="A pictorial representation of content marketing depicting the various aspects in the shape of a multi-coloured lightbulb.">
+<p class="services_headings_style">Content Marketing</p>
+<p>With a glowing social media presence and a sturdy backend to your website, now all you need is content. Be it images, videos or blog posts, we've got the skills to engage your customers with strategic campaigns.</p></div>
+</div>
+<!-- End of row/column 3. -->
+</div>
+<!--
+Start of section 3. The breaks have been included before the section's first division, as is the case for sections above and below, 
+to allow for the depth of the menu bar, which remains at the top of the page when navigating.
+-->
+<hr id="team">
+<div class="team" aria-label="Meet Market-Win's Team."><br>
+<div class="team_r">
+<div class=team_column>
+<div class="team_column_style">
+<h2>Mary</h2>
+<img src="profile_pics/mary.jpg" alt="Mary Profile Pic" aria-label="A profile picture of Mary smiling. Her hair is pink; her black suit jacket and white blouse well tailored; her expression open but authoritative.">
+<p class="center_text"><b>C.E.O. / Chief Tea Maker</b><br><br>The Queen of Market Win, Mary launched the company in 1960 when marketing was barely a thing. A pioneer of the trade. Looked up to by all. Imperious. Divine. Toats marketable.</p>
+<p class="left_text"><b>Mary's Superpowers:</b></p>
+<p class="left_text">Social Media</p>
+<!-- These additional divisions are to enable the animation feature within this section. -->
+<div class="animation_container"><div class="advanced">Advanced</div></div>
+<p class="left_text">S.E.O.</p>
+<div class="animation_container"><div class="advanced">Advanced</div></div>
+<p class="left_text">Content</p>
+<div class="animation_container"><div class="advanced">Advanced</div></div>
+<p class="left_text">Tea Making</p>
+<div class="animation_container"><div class="advanced">Advanced</div></div>
+</div>
+</div>
+<!-- Because this row is split into five columns, there are two additional "middle" columns. -->
+<div class="team_column middle">
+<div class="team_column_style">
+<h2>Joseph</h2>
+<img src="profile_pics/joseph.jpg" alt="Joseph Profile Pic" aria-label="A profile picture of Joseph, not smiling. His short afro-carribean hair extends to a beard; he wears a casual green t-shirt.">
+<p class="center_text"><b>C.O.O. / The Lugger</b><br><br>Let's not get into well worn cliche's about being the better half, because he is! If only for his super human ability to carry several white boards and a laser pen in one go.</p>
+<p class="left_text"><b> Joseph's Superpowers:</b></p>
+<p class="left_text">Operations</p>
+<!-- These additional divisions are to enable the animation feature within this section. -->
+<div class="animation_container"><div class="advanced">Advanced</div></div>
+<p class="left_text">Trend Spotting.</p>
+<div class="animation_container"><div class="advanced">Advanced</div></div>
+<p class="left_text">Logistics</p>
+<div class="animation_container"><div class="advanced">Advanced</div></div>
+<p class="left_text">Heavy Lifting</p>
+<div class="animation_container"><div class="advanced">Advanced</div></div>
+</div>
+</div>
+<div class="team_column middle">
+<div class="team_column_style">
+<h2>Mo</h2>
+<img src="profile_pics/mo.jpg" alt="Mo Profile Pic" aria-label="A profile picture of Mo smiling. He has cropped dark hair and wears a white suit with a black shirt and green tie.">
+<p class="center_text"><b>C.T.O. / Computer Whizz</b><br><br>With Mo on the team, our computers never say no. And with the latest antiviral technology fully installed, you need never worry when sharing your files.</p>
+<p class="left_text"><b>Mo's Superpowers:</b></p>
+<p class="left_text">Programming</p>
+<!-- These additional divisions are to enable the animation feature within this section. -->
+<div class="animation_container"><div class="advanced">Advanced</div></div>
+<p class="left_text">S.E.O.</p>
+<div class="animation_container"><div class="advanced">Advanced</div></div>
+<p class="left_text">Database</p>
+<div class="animation_container"><div class="advanced">Advanced</div></div>
+<p class="left_text">Technology</p>
+<div class="animation_container"><div class="advanced">Advanced</div></div>
+</div>
+</div>
+<div class="team_column middle">
+<div class="team_column_style">
+<h2>Pauline</h2>
+<img src="profile_pics/pauline.jpg" alt="Pauline Profile Pic" aria-label="An alluring profile picture of Pauline with long glossy hair draped over bare shoulders.">
+<p class="center_text"><b>C.F.O. / Moneybags</b><br><br>Prudence is Polly's middle name. She keeps our purse strings drawn on the right side of frugal. Except when it comes to the office Christmas party.</p>
+<p class="left_text"><b>Pauline's Superpowers:</b></p>
+<p class="left_text">Accountancy</p>
+<!-- These additional divisions are to enable the animation feature within this section. -->
+<div class="animation_container"><div class="advanced">Advanced</div></div>
+<p class="left_text">Excel</p>
+<div class="animation_container"><div class="advanced">Advanced</div></div>
+<p class="left_text">Numbers</p>
+<div class="animation_container"><div class="advanced">Advanced</div></div>
+<p class="left_text">Partying</p>
+<div class="animation_container"><div class="advanced">Advanced</div></div>
+</div>
+</div>
+<div class="team_column side">
+<div class="team_column_style">
+<h2>Peter</h2>
+<img src="profile_pics/peter.jpg" alt="Peter Profile Pic" aria-label="A profile picture of Peter smiling. His funky hair compliments a small goatee beard. He wears a casual black tee.">
+<p class="center_text"><b>M.D. / Gandalf</b><br><br>With so many well-meaning  egos in one place, Peter is truly a wizard when it comes to keeping everyone pulling (or pushing) in the right direction. Did someone say mission?!</p>
+<p class="left_text"><b> Peter's Superpowers:</b></p>
+<p class="left_text">Operations</p>
+<!-- These additional divisions are to enable the animation feature within this section. -->
+<div class="animation_container"><div class="advanced">Advanced</div></div>
+<p class="left_text">Strategy</p>
+<div class="animation_container"><div class="advanced">Advanced</div></div>
+<p class="left_text">Administration</p>
+<div class="animation_container"><div class="advanced">Advanced</div></div>
+<p class="left_text">Wizardry</p>
+<div class="animation_container"><div class="advanced">Advanced</div></div>
+</div>
+</div>
+</div>
+<hr id="about">
+<div class="about" aria-label="This is the about Market Win"><br>
+<div class="about_r">
+<!-- The "about" section is only split into two columns, so the "middle" column has been excluded. -->
+<div class="about_column">
+<div class="about_history_style">
+<!-- In the first column, the "article" attribute has been used as it is felt the information fits the article criteria well. -->
+<article>
+<header><h2>A History of Market Win</h2></header>
+<section><h3>Timeline</h3><img src="about_pics/startup.jpeg" alt="Startup Pic" style="max-width:40%;float:left;" aria-label="A picture of a notice board with a piece of paper pinned to it. The words business plan are written on the paper.">
+<!-- Within the article, "Details" and "Summary" attributes have been used for presentational purposes. -->
+<details class="center_text"><summary><b>1960, Start-up</b></summary><p class="history_details_faq_text">Fresh out of college, Mary, our Queen of Market Win, hits upon the idea of promoting the lesser known local businesses to the wider community. Setting up shop in the spare bedroom of her parents' end terrace, she puts her machinations to paper and writes a business plan.</p></details><img src="about_pics/customer.jpeg" alt="Customer Pic" style="max-width:40%;float:right;" aria-label="A picture of two suited women shaking hands in an office.">
+<details class="center_text"><summary><b>1961, Our First Client</b></summary><p class="history_details_faq_text">After months of relentless phone calls, much to the dismay of her ever-loving parents, and plenty of door-knocking, Mary lands her first client - Mr. Jones the greengrocer, who agrees to pay her one bob a week, including fees, to advertise his most freshest of fresh cucumbers, among other vegetarian delights, however she sees fit.</p></details><img src="about_pics/move.jpeg" alt="Move Pic" style="max-width:40%;float:left;" aria-label="A picture of a multi-ethnic team of people casually dressed and carrying brown cardboard boxes.">
+<details class="center_text"><summary><b>1963, Office Space</b></summary><p class="history_details_faq_text">With Mary's canny approach and an eye for a good deal, word of Mr. Jones's booming trade soon spreads to the other business owners on Corporation Street. Shortly after, Mary has all the even-numbered shops signed up to her agency and can afford to rent her own premises, allowing her mother the space to finally create her own knitting room.</p></details><img src="about_pics/team.jpeg" alt="Team Pic" style="max-width:40%;float:right;" aria-label="A picture of a multi-ethnic team of office workers in suits punching the air in celebration.">
+<details class="center_text"><summary><b>1964, Minions</b></summary><p class="history_details_faq_text">All the odd-numbered businesses on Corporation Street take note of the shiny new marketing agency in their midsts and sign up pretty sharpish. With more work than she can handle, Mary employs her first staff member, Joseph. He is immediately made 'head of even-numbers'.</p></details><img src="about_pics/awards.jpeg" alt="Award Pic" style="max-width:40%;float:left;" aria-label="A medium shot of blonde woman in a low-cut, black and white dress clutching a silver trophy.">
+<details class="center_text"><summary><b>1966, Recognition</b></summary><p class="history_details_faq_text">The local council are overwhelmed by the increased tax revenue thanks to the roaring trade on Commercial Street. Mary is presented with the inaugural "Awesome Person Award'. In the process, she strikes a deal to manage the council's PR - the newly opened nuclear power plant has not gone down well with the NIMBY brigade!</p></details><img src="about_pics/stability.jpeg" alt="Stability Pic" style="max-width:40%;float:right;" aria-label="A picture of an arrangement of stones in the shape of a perfectly balanced set of scales.">
+<details class="center_text"><summary><b>1970, Stability</b></summary><p class="history_details_faq_text">Mutually assured destruction averted, Joseph can't escape the fact that Mary really is such an awesome person. With Market Win's clients spread far and wide, and a team of established professionals in place to manage the odd and even numbered work, Joseph seizes the opportunity to propose. Being a serial winner, of course, Mary accepts.</p></details><img src="about_pics/expansion.jpeg" alt="Expansion Pic" style="max-width:30%;float:left;" aria-label="A stylised map of the world with arcing dotted lines interconnecting many destinations, the importance of each defined by a circle of varying size.">
+<details class="center_text"><summary><b>1975, Expansion</b></summary><p class="history_details_faq_text">Kids popped, and Joseph on house-husbandry detail, Mary set her sights on Europe and the opportunities available thanks to the UK's recent membership of the EU. Over the next three years, Mary's air travel is such, she has a noticeable, positive impact on share prices in the aviation sector. On February first 1979, Mary is invited to ring the opening bell on Wall Street as a thank you.</p></details><img src="about_pics/yuppie.jpeg" alt="Yuppie Pic" style="max-width:30%;float:right;" aria-label="A collage of eighties themed images representing excess and yuppie culture.">
+<details class="center_text"><summary><b>1985, Inventing the Yuppie</b></summary><p class="history_details_faq_text">After cornering the North American market, Mary returns home triumphant. She isn't the only one riding high. After much champagne debauchery, all thanks to Mary's hard work, a leading firm of market traders turn to her to rebrand their flailing image. Thus, the <i>'Yuppie'</i> is born.</p></details><img src="about_pics/domination.gif" alt="Domination Pic" style="max-width:25%;float:left;" aria-label="A picture of a pop starlet holding a spinning globe in her hands.">
+<details class="center_text"><summary><b>2000s, Domination</b></summary><p class="history_details_faq_text">Having foreseen the possibilities of the World Wide Web, Mary spent the 1990s learning to code. It is on these very pages that you will find the fruit of her labours and the front-end of a global empire greater than the combined wealth of all the FAANGs put together.</p></details>
+</section>
+</article>
+</div>
+</div>
+<div class="about_column side">
+<div class="about_values_style">
+<img src="about_pics/values.gif" alt="Our Core Values" style="max-width:100%;" aria-label="A pictorial representation of our values. Shaped like a sun, the rays, eight orange triangles, rotate around an orange circle.">
+<!-- Again, the article attribute has been used. -->
+<article>
+<header><h3>Our Values Keep Us</h3></header>
+<section>
+<h3>Happy!!!!!</h3>
+<p><b>Clients: </b> are at the heart of everything we do.</p>
+<p><b>Passion: </b> gets us up in the morning.</p>
+<p><b>Community: </b> because working is more than a job.</p>
+<p><b>Integrity: </b> our decisions make our reputation.</p>
+<p><b>Innovation: </b> where ideas never get tired.</p>
+<p><b>Safety: </b> practices that put wellbeing first.</p>
+<p><b>Reliability: </b> we're as good as our word.</p>
+<p><b>Teamwork: </b> makes us stronger.</p>
+</section>
+</article>
+</div>
+</div>
+</div>
+<hr id="contact">
+<br>
+<div class="contact" aria-label="This is Market Wins Contact Information">
+<div class="contact_r-container">
+<div class="contact_map" aria-label="Click frame zero to enter Google maps at the location of Market Win's office.">
+<!-- A Google Map has been embedded through the iframe below. -->
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2384.516185185245!2d-6.181220158936892!3d53.29820127844039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e99733f3617%3A0x7ff7202fe3dea603!2sCode%20Institute!5e0!3m2!1sen!2suk!4v1683723806999!5m2!1sen!2suk" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<div class="contact_middle">
+<!-- An address attribute has been used to enhance search engine optimisation. -->
+<address aria-label="Our address is">MARKET-WIN<br>1 Market Street<br>Marketsville<br>Market City<br>MK1 1WN</address>
+</div>
+<div class="contact_right">
+<p class="contact_text_style"><b>Phone: </b>+44 1234 567 890<br><br><b>Email: </b><a href="mailto:hello@marketwin.co.uk">hello@marketwin.co.uk</a></p>
+</div>
+</div>
+<!--
+The footer or "base" of each page contains links to social media and the less visual, more technical, company information. It is the same on each page.
+The content for each of the pages listed in the footer are held on separate .htm files.
+-->
+<br><br>
+<div class="base" role="contentinfo">
+<div class="base_row">
+<div class="base_column">
+<div class="base_style">
+<h4>Still Have Questions?</h4>
+<ul>
+<li><a href="faqs.htm" aria-label="A link to market-win's FAQ page">FAQ</a></li>
+<li><a href="reviews.htm" aria-label="A link to market-win's Client Reviews page">Client Reviews</a></li>
+<li><a href="jobs.htm" aria-label="A link to market-win's Jobs page">Jobs</a></li>
+</ul>
+</div>
+</div>
+<div class="base_column middle">
+<div class="base_style">
+<img src="logos/SLOGORED.png" style="cursor:pointer;" onclick="topFunction()" alt="Market Win Logo" aria-label="The market win logo."><script>function topFunction() {document.body.scrollTop = 0;document.documentElement.scrollTop = 0;}</script>
+<br>
+<a href="https://twitter.com/" target="_blank" aria-label="Go to our twitter page (opens in new tab)"><i class="fab fa-twitter"></i></a>
+<a href="https://facebook.com/" target="_blank" aria-label="Go to our facebook page (opens in new tab)"><i class="fab fa-facebook"></i></a>
+<a href="https://linkedin.com/" target="_blank" aria-label="Go to our LinkedIn page (opens in new tab)"><i class="fab fa-linkedin"></i></a>
+<a href="https://youtube.com/" target="_blank" aria-label="Go to our youtube page (opens in new tab)"><i class="fab fa-youtube"></i></a>
+<a href="https://instagram.com/" target="_blank" aria-label="Go to our instagram page (opens in new tab)"><i class="fab fa-instagram"></i></a>
+<a href="https://pinterest.com/" target="_blank" aria-label="Go to our Pinterest page (opens in new tab)"><i class="fab fa-pinterest"></i></a>
+</div>
+</div>
+<div class="base_column side">
+<div class="base_style">
+<h4>Company Information</h4>
+<ul>
+<li><a href="press.htm" aria-label="A link to market-win's press releases page">Press Releases</a></li>
+<li><a href="ua.htm" aria-label="A link to market-win's User Agreement page">User Agreement</a></li>
+<li><a href="ps.htm" aria-label="A link to market-win's Privacy Statement page">Privacy Statement</a></li>
+</ul>
+</div></div></div></div></div></div></div></div></div></div>
+</body>
+</html>
