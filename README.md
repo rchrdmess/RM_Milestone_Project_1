@@ -154,11 +154,14 @@ All functions work as intended. There are no dead or erroneous links.
 
 When viewed on smaller screens, the sub-sections stack vertically instead of horizontally. The order of each main section stays vertical and in the same order.
 
+On deploying to GitHub, some alignment issues were noted when viewed on a phone for the first time and adjusted acordingly.
+
 ### Validator Testing
 
 - HTML
   - No errors were returned in any .htm file when put through the official W3C validator.
   - 8 aria-label misuse warnings returned on the index page, which have been dismissed by the author.
+  - 1 query regarding the Google Map iFrame width, which has been set as a percentage for better alignment.
 - CSS
   - No errors were returned in the official (Jigsaw) Validator.
 
