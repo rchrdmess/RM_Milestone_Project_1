@@ -758,7 +758,7 @@ font-size:12px;
 /* --- ICON SETTINGS ---- */
 
 .fa-twitter {
-font-size:22px;
+font-size:18px;
 color: white;
 padding-top: 5px;
 padding-bottom: 5px;
@@ -767,7 +767,7 @@ padding-right: 1px;
 }
 
 .fa-facebook {
-font-size:22px;
+font-size:18px;
 color: white;
 padding-top: 5px;
 padding-bottom: 5px;
@@ -776,7 +776,7 @@ padding-right: 1px;
 }
 
 .fa-linkedin {
-font-size:22px;
+font-size:18px;
 color: white;
 padding-top: 5px;
 padding-bottom: 5px;
@@ -785,7 +785,7 @@ padding-right: 1px;
 }
 
 .fa-youtube {
-font-size:22px;
+font-size:18px;
 color: white;
 padding-top: 5px;
 padding-bottom: 5px;
@@ -795,7 +795,7 @@ padding-right: 1px;
 
 
 .fa-instagram {
-font-size:22px;
+font-size:18px;
 color: white;
 padding-top: 5px;
 padding-bottom: 5px;
@@ -804,7 +804,7 @@ padding-right: 1px;
 }
 
 .fa-pinterest {
-font-size:22px;
+font-size:18px;
 color: white;
 padding-top: 5px;
 padding-bottom: 5px;
@@ -813,32 +813,32 @@ padding-right: 1px;
 }
 
 .fa-twitter:hover {
-font-size:28px;
+font-size:24px;
 cursor: pointer;
 }
 
 .fa-facebook:hover {
-font-size:28px;
+font-size:24px;
 cursor: pointer;
 }
 
 .fa-linkedin:hover {
-font-size:28px;
+font-size:24px;
 cursor: pointer;
 }
 
 .fa-youtube:hover {
-font-size:28px;
+font-size:24px;
 cursor: pointer;
 }
 
 .fa-instagram:hover {
-font-size:28px;
+font-size:24px;
 cursor: pointer;
 }
 
 .fa-pinterest:hover {
-font-size:28px;
+font-size:24px;
 cursor: pointer;
 }
 
