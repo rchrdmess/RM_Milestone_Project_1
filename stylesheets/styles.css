@@ -88,8 +88,8 @@ text-align:left;
 
 .graph { /* This controls the location of the graph image in the home section. */
 position: absolute;
-left: 55%;
-top: 80%;
+left: 65%;
+top: 75%;
 max-width: 28%;
 z-index: 2;
 }
@@ -545,7 +545,7 @@ max-width:75%;
 }
 .home {
 background-image: url('../background_pics/home_pic.png');
-background-position: 80% 99%;
+background-position: 90% 95%;
 background-size: 48% 35%;
 }
 .team_column, .team_column.side, .team_column.middle {
