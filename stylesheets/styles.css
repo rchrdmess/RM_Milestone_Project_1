@@ -28,7 +28,7 @@ z-index: 2; /* Z index is used to allow the sections to scroll beneath the nav b
 .nav_bar a { /* Links in the top navigation bar are controlled here. */
 float: right;
 cursor: pointer;
-font-size: 12px;
+font-size: 14px;
 text-decoration: none;
 margin: 0.5%;
 }
