@@ -30,6 +30,7 @@ float: right;
 cursor: pointer;
 font-size: 12px;
 text-decoration: none;
+margin: 0.5%;
 }
 
 .nav_bar a:hover { /* Behaviour when hovering over the links in the top navigation bar are controlled here. */
@@ -41,6 +42,11 @@ font-weight:  bold;
 float: left;
 cursor: pointer;
 text-decoration: none;
+margin: 0.1%;
+}
+
+.nav_bar span {
+font-size: 22px;
 }
 
 /* --- HOME SECTION SETTINGS ---- */
@@ -512,6 +518,17 @@ padding:7%;
 /* --- MEDIA QUERY SETTINGS ---- */
 
 @media screen and (max-width: 600px) { /* This media query controls the behaviour of each section on smaller screens. */
+.nav_bar span {
+font-size: 14px;
+margin:0;
+}
+.nav_bar a {
+float: right;
+cursor: pointer;
+font-size: 12px;
+text-decoration: none;
+margin: 0;
+}
 .home_column, .home_column.side, .home_column.middle, .team_column, .team_column.side, .team_column.middle, .services_column, .services_column.side, .services_column.middle, .corporate_pages_column, .corporate_pages_column.middle, .about_column, .about_column.side, .about_column.middle, .base_column, .base_column.side, .base_column.middle {
 width: 100%;
   }
