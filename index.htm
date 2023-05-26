@@ -66,7 +66,7 @@
 Here is the container for the form within the modal. It contains data inputs for various text, dropdown selectors, radio buttons and the option to upload files. Rules have been applied to maintain the quality of the data provided by the user and these are conveyed if not followed correctly. For now, delivery method has been set to post and validation requirements have been put in place to prevent hacking.
 -->
 <div class="container">
-<form action="/request.php" method="post" name="contact_form" onsubmit="return validateForm()" autocomplete="on">
+<form action="https://formdump.codeinstitute.net" method="post" name="contact_form">
 <input type="text" id="title" name="title" maxlength="15" placeholder="Please provide your title (Mr/Mrs/Miss) ..." pattern="[A-Za-z.]{2,}" title="Cannot contain numbers or symbols except '.'" required aria-required="true">
 <br>
 <input type="text" id="fname" name="firstname" maxlength="15" placeholder="Please provide your first name ..." pattern="[A-Za-z-']{2,}" title="Cannot contain numbers or symbols except ' or -" required aria-required="true">
