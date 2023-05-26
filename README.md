@@ -102,20 +102,20 @@ With a glowing social media presence and a sturdy backend to your website, now a
 ![Recognition Picture](about_pics/awards.jpeg)  
 **1966, Recognition**  
 
-![Stability Picture](about_pics/Stability.jpeg)  
+![Stability Picture](about_pics/stability.jpeg)  
 **1970, Stability**  
 
-![Expansion Picture](about_pics/Expansion.jpeg)  
+![Expansion Picture](about_pics/expansion.jpeg)  
 **1975, Expansion**  
 
-![Inventing the Yuppie Picture](about_pics/Yuppie.jpeg)  
+![Inventing the Yuppie Picture](about_pics/yuppie.jpeg)  
 **1985, Inventing the Yuppie**  
 
-![Domination Picture](about_pics/Domination.gif)  
+![Domination Picture](about_pics/domination.gif)  
 **2000s, Domination**  
 
  #### Our Values Keep Us Happy
-![Graphical Display](about_pics/valueso.gif)  
+![Graphical Display](about_pics/values.gif)  
 **Clients:** are at the heart of everything we do.  
 **Passion:** gets us up in the morning.  
 **Community:** because working is more than a job.  
