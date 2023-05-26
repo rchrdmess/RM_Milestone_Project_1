@@ -13,7 +13,6 @@ The website aims to introduce potential customers to Market-Wins history, people
 
 ![Market Win's Navigation Bar](docs/navigation_bar.png)
 
-[Schedule a meet](id="myBtn")  
 [Home](index.htm)  
 [Services](index.htm#services)  
 [Team](index.htm#team)  
@@ -25,11 +24,11 @@ The website aims to introduce potential customers to Market-Wins history, people
   - It uses a picture along with a graphical overlay to easily comunicate Market-Win's strengths and cost effectivness.
   - It is designed to convey a positive, approachable and successful view of teh company.
 
-![The Market-Win logo](logos/logoanimi.gif)  
+![The Market-Win logo](logos/home_logo.gif)  
 Turn your marketing into a *market win*.
 
-![The home section background picture](bg_pics/ntht.png)  
-![The home section graph](bg_pics/graph1.png)  
+![The home section background picture](bg_pics/home_pic.png)  
+![The home section graph](bg_pics/graph.jpeg)  
 
 - Services Section
   - The services section details the three main services the company is promoting through the new website.
