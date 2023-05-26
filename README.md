@@ -27,8 +27,8 @@ The website aims to introduce potential customers to Market-Wins history, people
 ![The Market-Win logo](logos/home_logo.gif)  
 Turn your marketing into a *market win*.
 
-![The home section background picture](bg_pics/home_pic.png)  
-![The home section graph](bg_pics/graph.jpeg)  
+![The home section background picture](background_pics/home_pic.png)  
+![The home section graph](background_pics/graph.jpeg)  
 
 - Services Section
   - The services section details the three main services the company is promoting through the new website.
@@ -36,15 +36,15 @@ Turn your marketing into a *market win*.
   - A short paragraph will succinctly convey Market-Win's expertise.
   - For user interaction purposes, the short paragraph changes colour when hovered over.
 
-![Social Media Image](service_pics/contentmarketing.png)  
+![Social Media Image](service_pics/socialmedia.jpg)  
 #### Social Media
 No matter how you choose to connect with your customer base, we boast in-house experts for every social media platform, meaning we can get you engaged across the digital landscape.
 
-![Search Engine Optimisation Image](service_pics/seo.png)  
+![Search Engine Optimisation Image](service_pics/seo.jpg)  
 #### S.E.O.
 In this day and age, if you're not visible online, you may as well not exist. The more web traffic you drive to your website, the more leads you gain and the greater your chances of generating business.
 
-![Contant Marketing Image](service_pics/contentmarketing.png)  
+![Contant Marketing Image](service_pics/contentmarketing.jpg)  
 #### Content Marketing
 With a glowing social media presence and a sturdy backend to your website, now all you need is content. Be it images, videos or blog posts, we've got the skills to engage your customers with strategic campaigns.
 
@@ -53,27 +53,27 @@ With a glowing social media presence and a sturdy backend to your website, now a
   - The tone of this section conveys the companies personality.
   - Key skills are communicated via an animation titled: Superpowers.
 
-![Mary's Profile Picture](profile_pics/mary.png)  
+![Mary's Profile Picture](profile_pics/mary.jpg)  
 **Mary's Job Title**   
 **Mary's Bio**  
 **Mary's Superpowers**
 
-![Joseph's Profile Picture](profile_pics/joseph.png)  
+![Joseph's Profile Picture](profile_pics/joseph.jpg)  
 **Joseph's Job Title**   
 **Joseph's Bio**  
 **Joseph's Superpowers**
 
-![Mo's Profile Picture](profile_pics/mo.png)  
+![Mo's Profile Picture](profile_pics/mo.jpg)  
 **Mo's Job Title**   
 **Mo's Bio**  
 **Mo's Superpowers**
 
-![Pauline's Profile Picture](profile_pics/pauline.png)  
+![Pauline's Profile Picture](profile_pics/pauline.jpg)  
 **Pauline's Job Title**   
 **Pauline's Bio**  
 **Pauline's Superpowers**
 
-![Peter's Profile Picture](profile_pics/peter.png)  
+![Peter's Profile Picture](profile_pics/peter.jpg)  
 **Peter's Job Title**   
 **Peter's Bio**  
 **Peter's Superpowers**
@@ -85,30 +85,30 @@ With a glowing social media presence and a sturdy backend to your website, now a
   - A graphical display illustrated Market-Win's core values, which are then listed and detailed below.
 
 #### A History of Market-Win
-![History Section Background Picture](bg_pics/timeline.jpg)  
+![History Section Background Picture](bg_pics/timeline.jpeg)  
 
-![Startup Picture](about_pics/startup.jpg)  
+![Startup Picture](about_pics/startup.jpeg)  
 **1960, Start-up**  
 
-![Our First Client Picture](about_pics/customer.jpg)  
+![Our First Client Picture](about_pics/customer.jpeg)  
 **1961, Our First Client**  
 
-![Office Space Picture](about_pics/move.jpg)  
+![Office Space Picture](about_pics/move.jpeg)  
 **1963, Office Space**  
 
-![Minions Picture](about_pics/team.jpg)  
+![Minions Picture](about_pics/team.jpeg)  
 **1964, Minions**  
 
-![Recognition Picture](about_pics/awards.jpg)  
+![Recognition Picture](about_pics/awards.jpeg)  
 **1966, Recognition**  
 
-![Stability Picture](about_pics/Stability.jpg)  
+![Stability Picture](about_pics/Stability.jpeg)  
 **1970, Stability**  
 
-![Expansion Picture](about_pics/Expansion.jpg)  
+![Expansion Picture](about_pics/Expansion.jpeg)  
 **1975, Expansion**  
 
-![Inventing the Yuppie Picture](about_pics/Yuppie.jpg)  
+![Inventing the Yuppie Picture](about_pics/Yuppie.jpeg)  
 **1985, Inventing the Yuppie**  
 
 ![Domination Picture](about_pics/Domination.gif)  
