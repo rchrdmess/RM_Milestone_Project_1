@@ -9,7 +9,9 @@ The website aims to introduce potential customers to Market-Wins history, people
 - Navigation Bar
   - Sticking to the top of every page, the navigation bar contains links to all the sections on the main page, plus a link to book a meeting with the company.
   - It is the same on every page.
-  - It works across various screen sizes, allowing for easy navigation without the need of the back button.
+  - It works across various screen sizes, allowing for easy navigation without the need of the back button
+
+![Market Win's Navigation Bar](docs/navigation_bar.png)
 
 [Schedule a meet](id="myBtn")  
 [Home](index.htm)  
