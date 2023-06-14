@@ -1,9 +1,210 @@
 # Market-Win, Milestone Project 1
 
+(Developer: Richard Messenger)
+
+![Main image](docs/main_img.png)
+
+[Live webpage](https://rchrdmess.github.io/RM_Milestone_Project_1/)
+
 Market-Win is the brand new website for the digital marketing company of the same name.
 
-The website aims to introduce potential customers to Market-Wins history, people and services, and allow them to contact the company regarding any required services. The website will also feature corporate information such as Ts&Cs, a jobs board and press releases.
+The website is designed to be accessible and work across all devices, allowing clear comunication of the company's history, people and services, and enable users to approach the company regarding their services.
 
+## Contents
+
+1. [Project Goals](#project-goals)
+    1. [User Goals](#user-goals)
+    2. [Site Owner Goals](#site-owner-goals)
+    3. [Developer Goals](#developer-goals)
+2. [User Experience](#user-experience)
+    1. [Target Audience](#target-audience)
+    2. [User Requirements and Expectations](#user-requirements-and-expectations)
+    3. [User Stories](#user-stories)
+3. [Design](#design)
+    1. [Design Choices](#design-choices)
+    2. [Colours](#colours)
+    3. [Fonts](#fonts)
+    4. [Structure](#structure)
+    5. [Wireframes](#wireframes)
+4. [Technologies Used](#technologies-used)
+    1. [Languages](#languages)
+    2. [Frameworks and Tools](#frameworks-and-tools)
+5. [Features](#features)
+6. [Testing](#testing)
+    1. [HTML Validation](#HTML-validation)
+    2. [CSS Validation](#CSS-validation)
+    3. [Accessibility](#accessibility)
+    4. [Performance](#performance)
+    5. [Device testing](#performing-tests-on-various-devices)
+    6. [Browser compatibility](#browser-compatibility)
+    7. [Testing user stories](#testing-user-stories)
+8. [Bugs](#bugs)
+9. [Deployment](#deployment)
+10. [Credits](#credits)
+11. [Acknowledgements](#acknowledgements)
+
+## Project Goals
+
+The key goal is to convey the company's experience and ethos through a straight-forward website. In doing so, it will encourage those looking for marketing services to contact the company, an action which can be achieved on every page via the 'Shedule a meet' button in the top left corner.  It should be easy to navigate and feature corporate information such as Ts&Cs, a jobs board and press releases.
+
+### User Goals
+
+- An easy to navigate website
+- Presented with a view to accessibility issues
+- Provide a clear action throughwhich to contact the company
+- Convey the company's depth of experience, success and approachability through tone
+- Provide all the information a user could require in deciding whether to request the company's services
+- Assistance in identifying their needs
+
+### Site Owner Goals
+
+- Promote the business
+- Increase the client base
+- Provide comprehensive company information
+- Encourage uptake of the company's digital marketing services
+- Communicate the company's pedigree
+- Separate key information from general corporate information
+- Provide a tool to filter service requests
+
+### Developer Goals
+
+- To convey all the key information in sections on a single page
+- To allow the sub-sections to stack vertically on smaller devices
+- Easy navigation
+- Clear colour contrast for visually impaired users
+
+## User Experience
+
+### Target Audience
+
+- Working professionals
+- Self-employed or corporate
+- Anyone with a marketing/PR requirement
+
+### User Requirements and Expectations
+
+- Reliable, consistent navigation
+- No dead links
+- Clear presentation across all devices
+- Accessibility
+- Not text heavy
+- A clear understanding of Market-Win
+
+### User Stories
+
+#### First Visit
+
+- What does Market-Win do
+- Who is in the Market-Win team
+- How to contact Market-Win
+- Could Market-Win provide a good service
+- Is Market-Win on social media
+- Could I work for Market-Win
+
+#### Repeat visit
+
+- Can I find more detailed information
+- What are the terms of service
+- Will any data I provide be safe
+
+#### Site Owner
+
+- I want to promote the business
+- I want to increase our client base
+- I want to make our information readily available
+- I want to let people know who we are
+- I want to let people know our track record
+- I want to encourage people to contact us
+
+## Design
+
+### Design Choices
+
+A varying grid style layout has been chosen on the main page. Here, information is provided succinctly, with the user given the option to find out more, or "explore", through summary tags, if they choose to. More detailed information is cataglogued in the corporate section, reached via the footer on all pages.
+
+### Colours
+
+When choosing colours, the focus is on accessibility. A number of combinations were tested using a [contrast checker](https://www.siegemedia.com/contrast-ratio) to make sure a score above 4.5 was achieved for text contrasts. Ideally, we aimed for 7.
+
+The scheme chosen was 'chocolate and coffee' as these are every marketeer's favourite foods. 
+
+- Background: blue, #425eac
+- Navigation text: white, #ffffff
+- Navigation bar: chocolate, #662211
+- Section divisions: coffee, #f1d6a3
+- Section text: brown, #662211
+
+#### Text Ratios
+
+Navigation bar (chocolate and white): 11.65
+Sections ratio (chocolate and coffee): 8.26
+Body (blue and white): 6.12
+
+### Fonts
+
+Keeping with the desire for accessibility, sans-serif fonts were used as these are generally considered better for use on screens. Standard font families: helvetica, avenir, verdana and arial were chosen to maintain consistency across all browsers.
+
+### Structure
+
+The main index page is structured in sections placed in an ordered manner.
+
+The navigation bar and footer are consistent across all pages. 
+
+A ‘Request a meet’ modal is accessible in the top left hand corner of each page.
+
+The website consists of eight separate pages:
+
+##### Main Page
+ 
+- index.htm: this is the main page containing all the company's key information arranged into sections. Each section can be navigated to via the links in the navigation bar at the top of each page.
+
+####Corporate Pages
+
+- faqs.htm: A page containing answers to common questions the user might ask.
+- reviews.htm: A page containing reviews from existing customers.
+- jobs.htm: A page containing information on the latest vacancies.
+- press.htm: A page containing press releases.
+- privacy.htm: A page containing the privasy statement/policy.
+- ua.htm: A page containing the user agreement.
+
+#### 404 Page
+
+- 404.htm: A page containing a redirect link should the incorrect address be typed.
+
+### Wireframes
+
+<details><summary>Main Page</summary>
+![Main image](wireframes/index.jpg)
+</details>
+<details><summary>Corporate Page</summary>
+![Main image](wireframes/coinfo.jpg)
+</details>
+<details><summary>Modal Window</summary>
+![Main image](wireframes/modal.jpg)
+</details>
+
+## Technologies
+
+### Languages
+
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+- [Javascript](https://en.wikipedia.org/wiki/JavaScript)
+
+### Frameworks and Tools
+
+- [Git](https://git-scm.com/)
+- [Github](https://github.com/)
+- [Balsamiq](https://balsamiq.com/wireframes/)
+- [Adobe Suite (Illustrator, Photoshop & InDesign)](https://www.adobe.com/uk/)
+- [Font Awesome](https://fontawesome.com/search)
+- [Favicon](https://iconifier.net)  
+- [W3C validator](https://validator.w3.org/)
+- [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/)
+- [Microsoft Office Powerpoint](https://www.office.com)
+- [EZ Gif](https://ezgif.com/maker)
+- [Text Editor](https://support.apple.com/en-gb/guide/textedit/welcome/mac)
+- [Google Chrome](https://www.google.com/chrome/)
 ## Features
 
 - Navigation Bar
@@ -18,11 +219,12 @@ The website aims to introduce potential customers to Market-Wins history, people
 [Team](index.htm#team)  
 [About](index.htm#about)  
 [Contact](index.htm#contact)  
+[Coporate](index.htm#corporate)  
 
 - Home section
   - The first section directly beneath the navigation bar features Market-Win's especially commisioned animated logo and new slogan.
   - It uses a picture along with a graphical overlay to easily comunicate Market-Win's strengths and cost effectivness.
-  - It is designed to convey a positive, approachable and successful view of teh company.
+  - It is designed to convey a positive, approachable and successful view of the company.
 
 ![The Market-Win logo](logos/home_logo.gif)  
 Turn your marketing into a *market win*.
@@ -143,6 +345,8 @@ With a glowing social media presence and a sturdy backend to your website, now a
     - Press Releases
     - User Agreement
     - Privacy Statement
+- 404:
+    - Contains a conveniently located button to help the user return to the main page.
 
 ### Future Features To Implement
 
@@ -153,20 +357,68 @@ With a glowing social media presence and a sturdy backend to your website, now a
 
 All functions work as intended. There are no dead or erroneous links.
 
-When viewed on smaller screens, the sub-sections stack vertically instead of horizontally. The order of each main section stays vertical and in the same order.
+When viewed on smaller screens, the sub-sections of the main page stack vertically instead of horizontally. The order of each main section stays vertical and in the same order.
 
-On deploying to GitHub, some alignment issues were noted when viewed on a phone for the first time and adjusted acordingly.
+On deploying to GitHub, some alignment issues were noted when viewed on a phone for the first time and adjusted acordingly using Google Chrome's inspect feature.
 
-### Validator Testing
+### HTML Validation
 
-- HTML
-  - No errors were returned in any .htm file when put through the official W3C validator.
+The W3C Markup Validation Service passed all pages with no errors.
+
+index.htm [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Frchrdmess.github.io%2FRM_Milestone_Project_1%2F)
+
+faqs.htm [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Frchrdmess.github.io%2FRM_Milestone_Project_1%2Ffaqs.htm) 
+
+jobs.htm [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Frchrdmess.github.io%2FRM_Milestone_Project_1%2Fjobs.htm) 
+
+press.htm [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Frchrdmess.github.io%2FRM_Milestone_Project_1%2Fpress.htm) 
+
+privacy.htm [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Frchrdmess.github.io%2FRM_Milestone_Project_1%2Fprivacy.htm) 
+
+reviews.htm [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Frchrdmess.github.io%2FRM_Milestone_Project_1%2Freviews.htm) 
+
+user_agreement.htm [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Frchrdmess.github.io%2FRM_Milestone_Project_1%2Fua.htm) 
+
+404.htm [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Frchrdmess.github.io%2FRM_Milestone_Project_1%2F404.htm) 
+
+When passed through the W3C Markup Validation Service index.htm returned the following results:
   - 8 aria-label misuse warnings returned on the index page, which have been dismissed by the author.
-  - 1 query regarding the Google Map iFrame width, which has been set as a percentage for better alignment.
-- CSS
-  - No errors were returned in the official (Jigsaw) Validator.
+  - 1 query regarding the Google Map iFrame width. This has purposely been set as a percentage for better alignment.
 
-### Unfixed Bugs
+### CSS Validation
+
+The W3C Jigsaw CSS Validation Service passed the stylesheet with no errors.
+
+style.css [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frchrdmess.github.io%2FRM_Milestone_Project_1&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)  
+
+### Accessibility
+
+
+
+### Performance
+
+
+
+### Device testing
+
+The website was tested on the following devices:
+- MacBook Air
+- iPad Mini
+- iPhone XR
+
+The website was tested using Google Chrome Developer Tools for a selection of popular devices across several manufacturers.
+
+### Browser compatibility
+
+The website was tested on the following browsers:
+- Apple Safari
+- Google Chrome
+
+### Testing user stories
+
+
+
+## Bugs
 
 None.
 
@@ -188,7 +440,7 @@ A number of sources were used for the content and media on Market-Win's website.
 
 ### Content
 
-- Modal, columns and animation code courtesy of: <https://www.w3schools.com>
+- Modal, columns and responsive navigation menu courtesy of: <https://www.w3schools.com>
 
 ### Media
 
@@ -217,5 +469,7 @@ A number of sources were used for the content and media on Market-Win's website.
     - Yuppie: <https://www.thetimes.co.uk/article/the-return-of-the-yuppie-but-not-as-you-know-it-j6rdjdmw9>
     - Domination: <https://tenor.com/en-GB/view/rihanna-world-domination-planet-earth-galaxy-impact-gif-20536471>
     - Navigation bar and social media icons provided by: <https://www.fontawesome.com>
+
+## Acknowledgments
 
 **Written by** ***Richard Messenger***
