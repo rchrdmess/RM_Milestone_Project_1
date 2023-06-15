@@ -158,7 +158,7 @@ The website consists of eight separate pages:
  
 - index.htm: this is the main page containing all the company's key information arranged into sections. Each section can be navigated to via the links in the navigation bar at the top of each page.
 
-####Corporate Pages
+#### Corporate Pages
 
 - faqs.htm: A page containing answers to common questions the user might ask.
 - reviews.htm: A page containing reviews from existing customers.
@@ -205,6 +205,8 @@ The website consists of eight separate pages:
 - [EZ Gif](https://ezgif.com/maker)
 - [Text Editor](https://support.apple.com/en-gb/guide/textedit/welcome/mac)
 - [Google Chrome](https://www.google.com/chrome/)
+- [Apple Voice Over](https://support.apple.com/en-gb/guide/iphone/iph3e2e415f/ios)
+
 ## Features
 
 - Navigation Bar
@@ -359,7 +361,13 @@ All functions work as intended. There are no dead or erroneous links.
 
 When viewed on smaller screens, the sub-sections of the main page stack vertically instead of horizontally. The order of each main section stays vertical and in the same order.
 
-On deploying to GitHub, some alignment issues were noted when viewed on a phone for the first time and adjusted acordingly using Google Chrome's inspect feature.
+The website was navigated using Apple's Voice Over and aria labels were added to provide a coherent narrative to visually impaired users.
+
+The web form passed when run through Code Institutes form tester:
+
+![Form Completion Confirmation](docs/form_completion_confirmation)
+
+On deploying to GitHub, some alignment issues were noted when viewed on a phone for the first time and adjusted acordingly using Google Chrome's inspect feature. (See 'Bugs' below)
 
 ### HTML Validation
 
@@ -393,11 +401,16 @@ style.css [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2
 
 ### Accessibility
 
+Accessibility testing returns three errors. One notes an empty link on an element that is hidden, which the developer has discounted as irrelevant. Two note missing form labels in the modal window. The developer is unable to identify these as the modal window cant be loaded on screen for the software tool to highlight what it is specifically referring to. As a result, r
+the modal has been re-tested using the Voice Over utility and no apparent errors exist. All elements are described by Voice Over as intended.
 
+![Accessibility Results](docs/accessibility_results.png)
 
 ### Performance
 
+Running the main page through Google Lighthouse returns acceptable results.
 
+![Lighthouse Results](docs/lighthouse_results.png)
 
 ### Device testing
 
@@ -416,11 +429,276 @@ The website was tested on the following browsers:
 
 ### Testing user stories
 
+#### First Time Users
 
+1. What does Market-Win do
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Main Page | On Index page scroll down | Information is provided | Works as intended |
+| Footer - corporate information section | On any page view the footer | View the FAQ page via link | Works as intended |
+| Navigation Bar | On any page click 'Corporate' in the navigation bar | Information is provided | Works as intended |
+
+
+2. Who is in the Market-Win team
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Main Page | On Index scroll down to team section | Information is provided | Works as intended |
+| Navigation Bar | On any page click 'Team' in the navigation bar | Information is provided | Works as intended |
+
+
+3. How to contact Market-Win
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Main Page | On Index scroll down to contact section | Information is provided | Works as intended |
+| Navigation Bar | On any page click 'Contact' in the navigation bar | Information is provided | Works as intended |
+
+
+4. Could Market-Win provide a good service
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Main Page | On Index scroll down to About section | Information is provided | Works as intended |
+| Navigation Bar | On any page click 'About' in the navigation bar | Information is provided | Works as intended |
+| Navigation Bar | On any page click 'Corporate' in the navigation bar | Information is provided | Works as intended |
+| Corporate Pages | On any page click 'Reviews' in the footer | Information is provided | Works as intended |
+
+5. Is Market-Win on social media
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| All Pages | Scroll down to footer | Information is provided | Works as intended |
+| Navigation Bar | On any page click 'Corporate' in the navigation bar | Information is provided | Works as intended |
+
+6. Could I work for Market-Win
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer - corporate information section | On any page view the footer | Click the Jobs page | Works as intended |
+| Navigation Bar | On any page click 'Corporate' in the navigation bar | Information is provided via link | Works as intended |
+
+#### Repeat Visit
+
+7. Can I find more detailed information
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer - corporate information section | On any page view the footer | View the pages via the links | Works as intended |
+| Navigation Bar | On any page click 'Corporate' in the navigation bar | Information is provided | Works as intended |
+
+8. What are the terms of service
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer - corporate information section | On any page view the footer | View the Privacy and User Agreement pages via the links | Works as intended |
+| Navigation Bar | On any page click 'Corporate' in the navigation bar | Information is provided via links | Works as intended |
+
+9. Will any data I provide be safe
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer - corporate information section | On any page view the footer | View the User Agreement page via the links | Works as intended |
+| Navigation Bar | On any page click 'Corporate' in the navigation bar | Information is provided via links | Works as intended |
+
+#### Site Owner 
+
+10. I want to promote the business
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Main Page | On Index page scroll down | Information is provided | Works as intended |
+| Navigation Bar | On any page click 'Schedule a meet' | Find booking form on Modal | Works as intended |
+| Navigation Bar | On any page click 'About' in the navigation bar | Information is provided | Works as intended |
+| Navigation Bar | On any page click 'Corporate' in the navigation bar | Information is provided | Works as intended |
+| Navigation Bar | On any page click 'Team' in the navigation bar | Information is provided | Works as intended |
+| Navigation Bar | On any page click 'Services' in the navigation bar | Information is provided | Works as intended |
+| Corporate Pages | On any page click 'Reviews' in the footer | Information is provided | Works as intended |
+| Navigation Bar | On any page click 'Contact' in the navigation bar | Information is provided | Works as intended |
+
+11. I want to increase our client base
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation Bar | On any page click 'Schedule a meet' | Find booking form on Modal | Works as intended |
+| Main Page | On Index scroll down to contact section | Information is provided | Works as intended |
+| Navigation Bar | On any page click 'Contact' in the navigation bar | Information is provided | Works as intended |
+| Main Page | On Index scroll down to contact section | Information is provided | Works as intended |
+| Navigation Bar | On any page click 'Contact' in the navigation bar | Information is provided | Works as intended |
+
+12. I want to make our information readily available
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Main Page | On Index scroll down to contact section | Information is provided | Works as intended |
+| Navigation Bar | On any page click 'Contact' in the navigation bar | Information is provided | Works as intended |
+| Header Meta Data | Information provided to search engines | Information is provided | Works as intended |
+
+13. I want to let people know who we are
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Main Page | On Index page scroll down | Information is provided | Works as intended |
+| Navigation Bar | On any page click 'Team' in the navigation bar | Information is provided | Works as intended |
+| All Pages | Scroll down to footer | Information is provided | Works as intended |
+
+14. I want to let people know our track record
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Main Page | On Index scroll down to About section | Information is provided | Works as intended |
+| Navigation Bar | On any page click 'About' in the navigation bar | Information is provided | Works as intended |
+| Navigation Bar | On any page click 'Corporate' in the navigation bar | Information is provided | Works as intended |
+| Corporate Pages | On any page click 'Reviews' in the footer | Information is provided | Works as intended |
+
+15. I want to encourage people to contact us
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation Bar | On any page click 'Schedule a meet' | Find booking form on Modal | Works as intended |
+| All Pages | Scroll down to footer | Information is provided | Works as intended |
+| Navigation Bar | On any page click 'Corporate' in the navigation bar | Information is provided | Works as intended |
+| Main Page | On Index scroll down to contact section | Information is provided | Works as intended |
+| Navigation Bar | On any page click 'Contact' in the navigation bar | Information is provided | Works as intended |
+| Home button | On 404 error page click on 'Take Me home' button | Links to home page | Works as intended |
 
 ## Bugs
 
-None.
+On initial inspection via Google Chrome's inspect tool, it became clear that the navigation menu did not display correctly on older (narrow screen) phones. The links were too wide and stacked awkwardly. To remedy this, a responsive menu was added to create a drop down effect on screens narrower than 590 px. This limit was chosen to prevent the awkward stacking on desktop browsers when the window was narrowed.
+
+The width of the page was also displaying wider than that of the screen, even though widths were set to 100% or less. It was found that the Google Maps iframe, used to embed the address as displayed on Google Maps, had a width set to 400px. This was changed to 100% and the effect was eliviated. As a result, however, the W3 html checker then flagged an error that was ignored by the developer. (See 'testing' results number eight for index page above.)
+
+#### Old HTML
+```html
+            <div class="nav_bar" role="navigation">
+             <a class="split" id="myBtn" role="button" aria-label="To schedule a meeting. Click this"><span>Schedule a meet  <i class='far fa-comments'></i></span></a>
+             <a href="index.htm#contact" role="button">Contact</a>
+             <a href="index.htm#about" role="button">About</a>
+             <a href="index.htm#team" role="button">Team</a>
+             <a href="index.htm#services" role="button">Services</a>
+             <a href="index.htm" aria-label="home" role="button"><i class='fas fa-home'></i></a>
+            </div>
+```
+##### New HTML
+```html
+            <div class="nav_bar" role="navigation" id="mynav_bar">
+             <a class="split" id="myBtn" role="button" aria-label="To schedule a meeting. Click this">Schedule a meet&#160;&#160;<i class='far fa-comments'></i></a>
+             <a href="index.htm" aria-label="home" role="button"><i class='fas fa-home'></i></a>
+             <a href="index.htm#services" role="button">Services</a>
+             <a href="index.htm#team" role="button">Team</a>
+             <a href="index.htm#about" role="button">About</a>
+             <a href="index.htm#contact" role="button">Contact</a>
+             <a href="index.htm#corporate" role="button">Corporate</a>
+             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i></a>
+               <script>
+               function myFunction() {
+                 var x = document.getElementById("mynav_bar");
+                 if (x.className === "nav_bar") {
+                   x.className += " responsive";
+                 } else {
+                   x.className = "nav_bar";
+                 }
+               }
+               </script>
+</div>```
+#### Old CSS
+```css
+.nav_bar { 
+background-color: #662211; 
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 2; 
+}
+
+.nav_bar a { 
+float: right;
+cursor: pointer;
+font-size: 14px;
+text-decoration: none;
+margin: 0.5%;
+}
+
+.nav_bar a:hover { 
+cursor: pointer;
+font-weight:  bold;
+}
+
+.nav_bar a.split { 
+float: left;
+cursor: pointer;
+text-decoration: none;
+margin: 0.1%;
+font-size:14px;
+}
+           ```
+#### New CSS
+```
+css
+
+.nav_bar { 
+background-color: #662211; 
+overflow: hidden;
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 2; 
+}
+
+.nav_bar a {
+float: right;
+cursor: pointer;
+font-size: 14px;
+text-decoration: none;
+margin: 0.5%;
+}
+
+.nav_bar a:hover { 
+cursor: pointer;
+font-weight:  bold;
+}
+
+.nav_bar a.split { 
+float: left;
+cursor: pointer;
+text-decoration: none;
+margin: 0.1%;
+font-size:14px;
+}
+
+.nav_bar .icon {
+  display: none;
+}
+
+@media screen and (max-width: 590px) {
+.nav_bar a:not(:first-child) {display: none;}
+  .nav_bar a.icon {
+    float: right;
+    display: block;
+  }
+  .nav_bar.responsive {position: relative;}
+  .nav_bar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav_bar.responsive a {
+    float: none;
+    display: block;
+    text-align: right;
+  }
+  .nav_bar.responsive a.split {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+```
+#### Results
+
+![Navigation Bar on Small Screens](docs/navigation_bar_narrow)
 
 ## Deployment
 
