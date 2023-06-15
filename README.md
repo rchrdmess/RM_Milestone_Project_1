@@ -602,7 +602,8 @@ The width of the page was also displaying wider than that of the screen, even th
                  }
                }
                </script>
-</div>```
+</div>
+```
 #### Old CSS
 ```css
 .nav_bar { 
@@ -633,7 +634,7 @@ text-decoration: none;
 margin: 0.1%;
 font-size:14px;
 }
-           ```
+```
 #### New CSS
 ```
 css
@@ -698,7 +699,7 @@ font-size:14px;
 ```
 #### Results
 
-![Navigation Bar on Small Screens](docs/navigation_bar_narrow)
+![Navigation Bar on Small Screens](docs/navigation_bar_narrow.png)
 
 ## Deployment
 
