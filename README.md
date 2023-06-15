@@ -363,9 +363,9 @@ When viewed on smaller screens, the sub-sections of the main page stack vertical
 
 The website was navigated using Apple's Voice Over and aria labels were added to provide a coherent narrative to visually impaired users.
 
-The web form passed when run through Code Institutes form tester:
+The web form passed when run through Code Institute's form tester:
 
-![Form Completion Confirmation](docs/form_completion_confirmation)
+![Form Completion Confirmation](docs/form_completion_confirmation.png)
 
 On deploying to GitHub, some alignment issues were noted when viewed on a phone for the first time and adjusted acordingly using Google Chrome's inspect feature. (See 'Bugs' below)
 
