@@ -173,14 +173,14 @@ The website consists of eight separate pages:
 
 ### Wireframes
 
-Main Page
-![Main Page Wireframe image](docs/index.jpg)
+#### Main Page
+![Main Page Wireframe image](docs/index.jpg)  
 
-Corporate Page
-!Corporate Page Wireframe](docs/coinfo.jpg)
+#### Corporate Page
+![Corporate Page Wireframe](docs/coinfo.jpg)  
 
-Modal Window
-![Modal Wireframe](docs/modal.jpg)
+#### Modal Window
+![Modal Wireframe](docs/modal.jpg)  
 
 ## Technologies
 
