@@ -334,7 +334,7 @@ With a glowing social media presence and a sturdy backend to your website, now a
   - To help SEO, the address tag is used.
   - Email is provided as a mailto link.
 
-- Footer Section
+- Corporate Section
   - The footer contains Market-Win's logo, corporate pages and social media links.
   - Social media pages open in a new window.
   - Pages are listed in two sections for easy navigation.
