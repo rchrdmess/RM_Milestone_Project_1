@@ -10,7 +10,7 @@
  <meta property="og:title" content="Turn your marketing into a market win.">
  <meta property="og:url" content="https://www.market-win.co.uk">
  <meta property="og:description" content="Turn your marketing into a market win.">
- <meta property="og:image" content="https://www.market-win.co.uk/logos/SLOGORED.png">
+ <meta property="og:image" content="https://www.market-win.co.uk/assets/logo_red.jpeg">
  <meta property="og:site_name" content="Market-Win">
  <meta property="og:locale" content="en_GB">
  <meta property="og:image:type" content="image/jpeg">
@@ -18,21 +18,21 @@
  <meta name="twitter:title" content="Market-Win">
  <meta name="twitter:description" content="Turn your marketing into a market win.">
  <meta name="twitter:card" content="summary">
- <meta name="twitter:image" content="https://www.market-win.co.uk/logos/SLOGORED.png">
+ <meta name="twitter:image" content="https://www.market-win.co.uk/assets/logo_red.jpeg">
  <meta name="twitter:image:alt" content="Market-Win">
  <meta name="twitter:site" content="@Market-Win">
-   <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
-   <link rel="icon" type="image/x-icon" href="icons/favicon.ico">
-   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
-   <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png">
-   <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
-   <link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon-76x76.png">
-   <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
-   <link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120.png">
-   <link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png">
-   <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152.png">
-   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png">
-   <link rel="stylesheet" href="stylesheets/styles.css">
+   <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+   <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+   <link rel="apple-touch-icon" href="assets/apple-touch-icon.jpeg">
+   <link rel="apple-touch-icon" sizes="57x57" href="assets/apple-touch-icon-57x57.jpeg">
+   <link rel="apple-touch-icon" sizes="72x72" href="assets/apple-touch-icon-72x72.jpeg">
+   <link rel="apple-touch-icon" sizes="76x76" href="assets/apple-touch-icon-76x76.jpeg">
+   <link rel="apple-touch-icon" sizes="114x114" href="assets/apple-touch-icon-114x114.jpeg">
+   <link rel="apple-touch-icon" sizes="120x120" href="assets/apple-touch-icon-120x120.jpeg">
+   <link rel="apple-touch-icon" sizes="144x144" href="assets/apple-touch-icon-144x144.jpeg">
+   <link rel="apple-touch-icon" sizes="152x152" href="assets/apple-touch-icon-152x152.jpeg">
+   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon-180x180.jpeg">
+   <link rel="stylesheet" href="assets/styles.css">
 <!-- Third party stylesheets have been used to enable certain icons. -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -54,16 +54,7 @@ The first main division is for the navigation bar, which contains links to all t
  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
   <i class="fa fa-bars"></i>
  </a>
-   <script>
-   function myFunction() {
-     var x = document.getElementById("mynav_bar");
-     if (x.className === "nav_bar") {
-       x.className += " responsive";
-     } else {
-       x.className = "nav_bar";
-     }
-   }
-   </script>
+   <script src="assets/script_responsive.js"></script>
 </div>
 <div class="all">
  <br>
@@ -76,7 +67,7 @@ The template for the Modal content below was taken from W3 Schools and adjusted 
  <div class="modal-content">
   <div class="modal-header">
    <span class="close">x</span>
-    <p class="mod"><u>Book now</u>! And turn your marketing into a ... market win<br><br><img src="logos/croppedlogowht.png" alt="Market Win" aria-label="The Market-Win Logo."></p>
+    <p class="mod"><u>Book now</u>! And turn your marketing into a ... market win<br><br><img src="assets/cropped_logo.png" alt="Market Win" aria-label="The Market-Win Logo."></p>
   </div>
   <div class="modal-body">
 <!--
@@ -132,28 +123,7 @@ Here is the container for the form within the modal. It contains data inputs for
 <!--
 Here is the script for how the modal behaves when its link is clicked. Again, this has been taken from W3 Schools.
 -->
-   <script>
-   // Get the modal
-   var modal = document.getElementById("myModal");
-   // Get the button that opens the modal
-   var btn = document.getElementById("myBtn");
-   // Get the <span> element that closes the modal
-   var span = document.getElementsByClassName("close")[0];
-   // When the user clicks the button, open the modal 
-   btn.onclick = function() {
-     modal.style.display = "block";
-   }
-   // When the user clicks on <span> (x), close the modal
-   span.onclick = function() {
-     modal.style.display = "none";
-   }
-   // When the user clicks anywhere outside of the modal, close it
-   window.onclick = function(event) {
-     if (event.target == modal) {
-       modal.style.display = "none";
-     }
-   }
-   </script>
+   <script src="assets/script_modal.js"></script>
 <!-- 
 All the footer pages follow the same two column format. Split 30/70, the left column contains a menu of all the footer pages and is the same across each page. The right column contains the information specific to that page and is presented accordingly.
 -->
@@ -188,28 +158,28 @@ All the footer pages follow the same two column format. Split 30/70, the left co
 -->
   <div id="ART" class="corporate_pages_column middle">
    <div class="corporate_pages_style">
-<!-- The Press Release page provides links to .pdf press releases, which open in a new tab. A time attribute has been used to help SEO for company news. -->
+<!-- The Press Release page provides links to press releases, which open in a new tab. A time attribute has been used to help SEO for company news. -->
     <h3>Press Releases</h3>
      <ul>
       <li>
        <time datetime="2023-02-03 10:00">10:00, Monday 3 February 2023</time>
  <br>
-        <a class="faqa" href="wireframes/index.pdf" target="about_blank" aria-label="MARKET-WIN RELEASE UNSEEN FOOTAGE OF BRAND NEW WEBSITE. File opens in new tab">MARKET-WIN RELEASE UNSEEN FOOTAGE OF BRAND NEW WEBSITE</a>
+        <a class="faqa" href="assets/wireframe_index.jpeg" target="about_blank" aria-label="MARKET-WIN RELEASE UNSEEN FOOTAGE OF BRAND NEW WEBSITE. File opens in new tab">MARKET-WIN RELEASE UNSEEN FOOTAGE OF BRAND NEW WEBSITE</a>
       </li>
       <li>
        <time datetime="2023-02-28 10:00">10:00, Wednesday 28 February 2023</time>
  <br>
-        <a class="faqa" href="wireframes/modal.pdf" target="about_blank" aria-label="MARKET-WIN RELEASE SNEAK PEAK OF MODAL FEATURE. File opens in new tab">MARKET-WIN RELEASE SNEAK PEAK OF MODAL FEATURE</a>
+        <a class="faqa" href="assets/wireframe_modal.jpeg" target="about_blank" aria-label="MARKET-WIN RELEASE SNEAK PEAK OF MODAL FEATURE. File opens in new tab">MARKET-WIN RELEASE SNEAK PEAK OF MODAL FEATURE</a>
       </li>
       <li>
        <time datetime="2023-04-09 10:00">10:00, Monday 9 April 2023</time>
  <br>
-        <a class="faqa" href="wireframes/coinfo.pdf" target="about_blank" aria-label="MARKET-WIN PLAN TO DISPLAY COMPANY INFO ON NEW WEBSITE. File opens in new tab">MARKET-WIN PLAN TO DISPLAY COMPANY INFO ON NEW WEBSITE</a>
+        <a class="faqa" href="assets/wireframe_corporate.jpeg" target="about_blank" aria-label="MARKET-WIN PLAN TO DISPLAY COMPANY INFO ON NEW WEBSITE. File opens in new tab">MARKET-WIN PLAN TO DISPLAY COMPANY INFO ON NEW WEBSITE</a>
       </li>
       <li>
        <time datetime="2023-05-10 10:00">10:00, Wednesday 10 May 2023</time>
  <br>
-        <a class="faqa" href="wireframes/finfo.pdf" target="about_blank" aria-label="MARKET-WIN TO ALLOW FOR QUESTIONS ON NEW WEBSITE. File opens in new tab">MARKET-WIN TO ALLOW FOR QUESTIONS ON NEW WEBSITE</a>
+        <a class="faqa" href="assets/wireframe_index.jpeg" target="about_blank" aria-label="MARKET-WIN TO ALLOW FOR QUESTIONS ON NEW WEBSITE. File opens in new tab">MARKET-WIN TO ALLOW FOR QUESTIONS ON NEW WEBSITE</a>
       </li>
      </ul>
    </div>
@@ -241,10 +211,8 @@ The content for each of the pages listed in the footer are held on separate .htm
    </div>
   <div class="base_column middle">
    <div class="base_style">
-    <img src="logos/SLOGORED.png" style="cursor:pointer;" onclick="topFunction()" alt="Market Win Logo" aria-label="The market win logo.">
-     <script>
-      function topFunction() {document.body.scrollTop = 0;document.documentElement.scrollTop = 0;}
-     </script>
+    <img src="assets/main_logo.png" style="cursor:pointer;" onclick="topFunction()" alt="Market Win Logo" aria-label="The market win logo.">
+     <script src="assets/script_top.js"></script>
  <br>
       <a href="https://twitter.com/" target="_blank" aria-label="Go to our twitter page (opens in new tab)">
        <i class="fab fa-twitter"></i></a>
