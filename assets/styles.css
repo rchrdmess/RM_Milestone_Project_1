@@ -244,6 +244,10 @@ margin: 5%;
 text-align: center;
 }
 
+.about_history_style img {
+max-width:50%;
+}
+
 .about_values_style {
 background-color: #f1d6a3;
 border-top:50px solid #f1d6a3;
