@@ -73,7 +73,7 @@ Here is the container for the form within the modal. It contains data inputs for
 -->
    <div class="container">
     <form action="https://formdump.codeinstitute.net" method="post" name="contact_form">
-     <input type="text" id="title" name="title" maxlength="15" placeholder="Eg. Mr/Mrs/Miss ..." pattern="[A-Za-z.]{2,}" title="Cannot contain numbers or symbol" required aria-required="true">
+     <input type="text" id="title" name="title" maxlength="15" placeholder="Eg. Mr/Mrs/Miss ..." pattern="[A-Za-z.]{2,}" title="Cannot contain numbers or symbols" required aria-required="true">
  <br>
      <input type="text" id="fname" name="firstname" maxlength="15" placeholder="Eg. John ..." pattern="[A-Za-z-']{2,}" title="Cannot contain numbers or symbols" required aria-required="true">
  <br>
@@ -107,7 +107,7 @@ Here is the container for the form within the modal. It contains data inputs for
         <input type="time" id="apptt" name="Apt"></div>
       <div class="form_text">
        <label for="myfile">If you have a brief, please attach it here: </label>
-        <input type="file" id="myfile" name="myfile">
+        <input type="file" id="myfile" name="myfile" aria-required="true">
       </div>
        <input type="submit" formenctype="application/x-www-form-urlencoded" value="Book Meeting">
     </form>
