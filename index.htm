@@ -86,10 +86,10 @@ Here is the container for the form within the modal. It contains data inputs for
      <input type="text" id="company" name="company" maxlength="25" placeholder="Organisation ..." title="Please enter an organisation" pattern="[A-Za-z0-9-'.#@!$%£&?]{2,}" aria-required="true">
  <br>
       <div class="form_text">Let's meet by: 
-       <input type="checkbox" id="method1" name="phone" value="phone"><label for="method1">Phone</label>  
-       <input type="checkbox" id="method2" name="email" value="email"><label for="method2">Email</label>  
-       <input type="checkbox" id="method3" name="video" value="video"><label for="method3">Video</label>  
-       <input type="checkbox" id="method4" name="office" value="office"><label for="method4">Office</label>
+       <input type="checkbox" id="method1" name="phone" value="phone" aria-required="true"><label for="method1">Phone</label>  
+       <input type="checkbox" id="method2" name="email" value="email" aria-required="true"><label for="method2">Email</label>  
+       <input type="checkbox" id="method3" name="video" value="video" aria-required="true"><label for="method3">Video</label>  
+       <input type="checkbox" id="method4" name="office" value="office" aria-required="true"><label for="method4">Office</label>
  <br>
        <label for="service">I require: </label>
         <input type="search" list="servicel" name="service" id="service" placeholder="Please select ..." required aria-required="true">
@@ -102,9 +102,9 @@ Here is the container for the form within the modal. It contains data inputs for
          </datalist>
       </div>
       <div class="form_text">
-       <label for="apptd">Choose a time: </label>
-        <input type="date" id="apptd" name="Apt">   
-        <input type="time" id="apptt" name="Apt"></div>
+       <label for="apptd" aria-required="true">Choose a time: </label>
+        <input type="date" id="apptd" name="Apt" aria-required="true">   
+        <input type="time" id="apptt" name="Apt" aria-required="true"></div>
       <div class="form_text">
        <label for="myfile">If you have a brief, please attach it here: </label>
         <input type="file" id="myfile" name="myfile" aria-required="true">
@@ -236,48 +236,48 @@ to allow for the depth of the menu bar, which remains at the top of the page whe
      <header><h2>A History of Market Win</h2></header>
       <section>
        <h3>Timeline</h3>
-        <img src="assets/startup.webp" alt="Startup Pic" style="max-width:40%;float:left;" aria-label="A picture of a notice board with a piece of paper pinned to it. The words business plan are written on the paper.">
+        <img src="assets/startup.webp" alt="Startup Pic" style="float:left;" aria-label="A picture of a notice board with a piece of paper pinned to it. The words business plan are written on the paper.">
 <!-- Within the article, "Details" and "Summary" attributes have been used for presentational purposes. -->
          <details class="center_text">
           <summary><b>1960, Start-up</b></summary>
            <p class="history_details_faq_text">Fresh out of college, Mary, our Queen of Market Win, hits upon the idea of promoting the lesser known local businesses to the wider community. Setting up shop in the spare bedroom of her parents' end terrace, she puts her machinations to paper and writes a business plan.</p>
          </details>
-     <img src="assets/customer.webp" alt="Customer Pic" style="max-width:40%;float:right;" aria-label="A picture of two suited women shaking hands in an office.">
+     <img src="assets/customer.webp" alt="Customer Pic" style="float:right;" aria-label="A picture of two suited women shaking hands in an office.">
          <details class="center_text">
         <summary><b>1961, Our First Client</b></summary>
        <p class="history_details_faq_text">After months of relentless phone calls, much to the dismay of her ever-loving parents, and plenty of door-knocking, Mary lands her first client - Mr. Jones the greengrocer, who agrees to pay her one bob a week, including fees, to advertise his most freshest of fresh cucumbers, among other vegetarian delights, however she sees fit.</p>
          </details>
-          <img src="assets/move.webp" alt="Move Pic" style="max-width:40%;float:left;" aria-label="A picture of a multi-ethnic team of people casually dressed and carrying brown cardboard boxes.">
+          <img src="assets/move.webp" alt="Move Pic" style="float:left;" aria-label="A picture of a multi-ethnic team of people casually dressed and carrying brown cardboard boxes.">
          <details class="center_text">
           <summary><b>1963, Office Space</b></summary>
            <p class="history_details_faq_text">With Mary's canny approach and an eye for a good deal, word of Mr. Jones's booming trade soon spreads to the other business owners on Corporation Street. Shortly after, Mary has all the even-numbered shops signed up to her agency and can afford to rent her own premises, allowing her mother the space to finally create her own knitting room.</p>
          </details>
-          <img src="assets/team.webp" alt="Team Pic" style="max-width:40%;float:right;" aria-label="A picture of a multi-ethnic team of office workers in suits punching the air in celebration.">
+          <img src="assets/team.webp" alt="Team Pic" style="float:right;" aria-label="A picture of a multi-ethnic team of office workers in suits punching the air in celebration.">
          <details class="center_text">
           <summary><b>1964, Minions</b></summary>
            <p class="history_details_faq_text">All the odd-numbered businesses on Corporation Street take note of the shiny new marketing agency in their midsts and sign up pretty sharpish. With more work than she can handle, Mary employs her first staff member, Joseph. He is immediately made 'head of even-numbers'.</p>
          </details>
-          <img src="assets/awards.webp" alt="Award Pic" style="max-width:40%;float:left;" aria-label="A medium shot of blonde woman in a low-cut, black and white dress clutching a silver trophy.">
+          <img src="assets/awards.webp" alt="Award Pic" style="float:left;" aria-label="A medium shot of blonde woman in a low-cut, black and white dress clutching a silver trophy.">
          <details class="center_text">
           <summary><b>1966, Recognition</b></summary>
            <p class="history_details_faq_text">The local council are overwhelmed by the increased tax revenue thanks to the roaring trade on Commercial Street. Mary is presented with the inaugural "Awesome Person Award'. In the process, she strikes a deal to manage the council's PR - the newly opened nuclear power plant has not gone down well with the NIMBY brigade!</p>
          </details>
-          <img src="assets/stability.webp" alt="Stability Pic" style="max-width:40%;float:right;" aria-label="A picture of an arrangement of stones in the shape of a perfectly balanced set of scales.">
+          <img src="assets/stability.webp" alt="Stability Pic" style="float:right;" aria-label="A picture of an arrangement of stones in the shape of a perfectly balanced set of scales.">
          <details class="center_text">
           <summary><b>1970, Stability</b></summary>
            <p class="history_details_faq_text">Mutually assured destruction averted, Joseph can't escape the fact that Mary really is such an awesome person. With Market Win's clients spread far and wide, and a team of established professionals in place to manage the odd and even numbered work, Joseph seizes the opportunity to propose. Being a serial winner, of course, Mary accepts.</p>
          </details>
-          <img src="assets/expansion.webp" alt="Expansion Pic" style="max-width:30%;float:left;" aria-label="A stylised map of the world with arcing dotted lines interconnecting many destinations, the importance of each defined by a circle of varying size.">
+          <img src="assets/expansion.webp" alt="Expansion Pic" style="float:left;" aria-label="A stylised map of the world with arcing dotted lines interconnecting many destinations, the importance of each defined by a circle of varying size.">
          <details class="center_text">
           <summary><b>1975, Expansion</b></summary>
            <p class="history_details_faq_text">Kids popped, and Joseph on house-husbandry detail, Mary set her sights on Europe and the opportunities available thanks to the UK's recent membership of the EU. Over the next three years, Mary's air travel is such, she has a noticeable, positive impact on share prices in the aviation sector. On February first 1979, Mary is invited to ring the opening bell on Wall Street as a thank you.</p>
          </details>
-          <img src="assets/yuppie.webp" alt="Yuppie Pic" style="max-width:30%;float:right;" aria-label="A collage of eighties themed images representing excess and yuppie culture.">
+          <img src="assets/yuppie.webp" alt="Yuppie Pic" style="float:right;" aria-label="A collage of eighties themed images representing excess and yuppie culture.">
          <details class="center_text">
           <summary><b>1985, Inventing the Yuppie</b></summary>
            <p class="history_details_faq_text">After cornering the North American market, Mary returns home triumphant. She isn't the only one riding high. After much champagne debauchery, all thanks to Mary's hard work, a leading firm of market traders turn to her to rebrand their flailing image. Thus, the <i>'Yuppie'</i> is born.</p>
          </details>
-          <img src="assets/domination.webp" alt="Domination Pic" style="max-width:25%;float:left;" aria-label="A picture of a pop starlet holding a spinning globe in her hands.">
+          <img src="assets/domination.webp" alt="Domination Pic" style="float:left;" aria-label="A picture of a pop starlet holding a spinning globe in her hands.">
          <details class="center_text"><summary><b>2000s, Domination</b></summary><p class="history_details_faq_text">Having foreseen the possibilities of the World Wide Web, Mary spent the 1990s learning to code. It is on these very pages that you will find the fruit of her labours and the front-end of a global empire greater than the combined wealth of all the FAANGs put together.</p>
          </details>
       </section>
