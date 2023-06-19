@@ -2,7 +2,7 @@
 
 (Developer: Richard Messenger)
 
-![Main image](docs/main_img.png)
+![Main image](docs/main_img.jpeg)
 
 [Live webpage](https://rchrdmess.github.io/RM_Milestone_Project_1/)
 
@@ -128,17 +128,18 @@ When choosing colours, the focus is on accessibility. A number of combinations w
 
 The scheme chosen was 'chocolate and coffee' as these are every marketeer's favourite foods. 
 
-- Background: blue, #425eac
+- Background: chocolate, #662211
 - Navigation text: white, #ffffff
 - Navigation bar: chocolate, #662211
 - Section divisions: coffee, #f1d6a3
 - Section text: brown, #662211
+- Corporate pages menu: coffee, #f1d6a3
+- Corporate pages menu text: brown, #662211
 
 #### Text Ratios
 
 Navigation bar (chocolate and white): 11.65
 Sections ratio (chocolate and coffee): 8.26
-Body (blue and white): 6.12
 
 ### Fonts
 
@@ -173,14 +174,15 @@ The website consists of eight separate pages:
 
 ### Wireframes
 
-#### Main Page
-![Main Page Wireframe image](docs/index.jpg)  
-
-#### Corporate Page
-![Corporate Page Wireframe](docs/coinfo.jpg)  
-
-#### Modal Window
-![Modal Wireframe](docs/modal.jpg)  
+<details><summary>Main Page</summary>
+![Main image](docs/wireframe_index.jpeg)
+</details>
+<details><summary>Corporate Page</summary>
+![Main image](docs/wireframe_corporate.jpeg)
+</details>
+<details><summary>Modal Window</summary>
+![Main image](docs/wireframe_modal.jpeg)
+</details>
 
 ## Technologies
 
@@ -213,7 +215,7 @@ The website consists of eight separate pages:
   - It is the same on every page.
   - It works across various screen sizes, allowing for easy navigation without the need of the back button
 
-![Market Win's Navigation Bar](docs/navigation_bar.png)
+![Market Win's Navigation Bar](docs/navigation_bar.jpeg)
 
 [Home](index.htm)  
 [Services](index.htm#services)  
@@ -227,11 +229,11 @@ The website consists of eight separate pages:
   - It uses a picture along with a graphical overlay to easily comunicate Market-Win's strengths and cost effectivness.
   - It is designed to convey a positive, approachable and successful view of the company.
 
-![The Market-Win logo](logos/home_logo.gif)  
+![The Market-Win logo](assets/main_logo.png)  
 Turn your marketing into a *market win*.
 
-![The home section background picture](background_pics/home_pic.png)  
-![The home section graph](background_pics/graph.jpeg)  
+![The home section background picture](assets/home_pic.png)  
+![The home section graph](assets/graph.jpeg)  
 
 - Services Section
   - The services section details the three main services the company is promoting through the new website.
@@ -239,15 +241,15 @@ Turn your marketing into a *market win*.
   - A short paragraph will succinctly convey Market-Win's expertise.
   - For user interaction purposes, the short paragraph changes colour when hovered over.
 
-![Social Media Image](service_pics/socialmedia.jpg)  
+![Social Media Image](assets/socialmedia.jpeg)  
 #### Social Media
 No matter how you choose to connect with your customer base, we boast in-house experts for every social media platform, meaning we can get you engaged across the digital landscape.
 
-![Search Engine Optimisation Image](service_pics/seo.jpg)  
+![Search Engine Optimisation Image](assets/seo.jpeg)  
 #### S.E.O.
 In this day and age, if you're not visible online, you may as well not exist. The more web traffic you drive to your website, the more leads you gain and the greater your chances of generating business.
 
-![Contant Marketing Image](service_pics/contentmarketing.jpg)  
+![Contant Marketing Image](assets/contentmarketing.jpeg)  
 #### Content Marketing
 With a glowing social media presence and a sturdy backend to your website, now all you need is content. Be it images, videos or blog posts, we've got the skills to engage your customers with strategic campaigns.
 
@@ -256,27 +258,27 @@ With a glowing social media presence and a sturdy backend to your website, now a
   - The tone of this section conveys the companies personality.
   - Key skills are communicated via an animation titled: Superpowers.
 
-![Mary's Profile Picture](profile_pics/mary.jpg)  
+![Mary's Profile Picture](assets/mary.jpeg)  
 **Mary's Job Title**   
 **Mary's Bio**  
 **Mary's Superpowers**
 
-![Joseph's Profile Picture](profile_pics/joseph.jpg)  
+![Joseph's Profile Picture](assets/joseph.jpeg)  
 **Joseph's Job Title**   
 **Joseph's Bio**  
 **Joseph's Superpowers**
 
-![Mo's Profile Picture](profile_pics/mo.jpg)  
+![Mo's Profile Picture](assets/mo.jpeg)  
 **Mo's Job Title**   
 **Mo's Bio**  
 **Mo's Superpowers**
 
-![Pauline's Profile Picture](profile_pics/pauline.jpg)  
+![Pauline's Profile Picture](assets/pauline.jpeg)  
 **Pauline's Job Title**   
 **Pauline's Bio**  
 **Pauline's Superpowers**
 
-![Peter's Profile Picture](profile_pics/peter.jpg)  
+![Peter's Profile Picture](assets/peter.jpeg)  
 **Peter's Job Title**   
 **Peter's Bio**  
 **Peter's Superpowers**
@@ -288,37 +290,37 @@ With a glowing social media presence and a sturdy backend to your website, now a
   - A graphical display illustrated Market-Win's core values, which are then listed and detailed below.
 
 #### A History of Market-Win
-![History Section Background Picture](bg_pics/timeline.jpeg)  
+![History Section Background Picture](assets/timeline.jpeg)  
 
-![Startup Picture](about_pics/startup.jpeg)  
+![Startup Picture](assets/startup.jpeg)  
 **1960, Start-up**  
 
-![Our First Client Picture](about_pics/customer.jpeg)  
+![Our First Client Picture](assets/customer.jpeg)  
 **1961, Our First Client**  
 
-![Office Space Picture](about_pics/move.jpeg)  
+![Office Space Picture](assets/move.jpeg)  
 **1963, Office Space**  
 
-![Minions Picture](about_pics/team.jpeg)  
+![Minions Picture](assets/team.jpeg)  
 **1964, Minions**  
 
-![Recognition Picture](about_pics/awards.jpeg)  
+![Recognition Picture](assets/awards.jpeg)  
 **1966, Recognition**  
 
-![Stability Picture](about_pics/stability.jpeg)  
+![Stability Picture](assets/stability.jpeg)  
 **1970, Stability**  
 
-![Expansion Picture](about_pics/expansion.jpeg)  
+![Expansion Picture](assets/expansion.jpeg)  
 **1975, Expansion**  
 
-![Inventing the Yuppie Picture](about_pics/yuppie.jpeg)  
+![Inventing the Yuppie Picture](assets/yuppie.jpeg)  
 **1985, Inventing the Yuppie**  
 
-![Domination Picture](about_pics/domination.gif)  
+![Domination Picture](assets/domination.jpeg)  
 **2000s, Domination**  
 
  #### Our Values Keep Us Happy
-![Graphical Display](about_pics/values.gif)  
+![Graphical Display](assets/values.png)  
 **Clients:** are at the heart of everything we do.  
 **Passion:** gets us up in the morning.  
 **Community:** because working is more than a job.  
@@ -333,7 +335,7 @@ With a glowing social media presence and a sturdy backend to your website, now a
   - To help SEO, the address tag is used.
   - Email is provided as a mailto link.
 
-- Corporate Section
+- Footer Section
   - The footer contains Market-Win's logo, corporate pages and social media links.
   - Social media pages open in a new window.
   - Pages are listed in two sections for easy navigation.
@@ -362,9 +364,9 @@ When viewed on smaller screens, the sub-sections of the main page stack vertical
 
 The website was navigated using Apple's Voice Over and aria labels were added to provide a coherent narrative to visually impaired users.
 
-The web form passed when run through Code Institute's form tester:
+The web form passed when run through Code Institutes form tester:
 
-![Form Completion Confirmation](docs/form_completion_confirmation.png)
+![Form Completion Confirmation](docs/form_completion_confirmation)
 
 On deploying to GitHub, some alignment issues were noted when viewed on a phone for the first time and adjusted acordingly using Google Chrome's inspect feature. (See 'Bugs' below)
 
@@ -389,8 +391,7 @@ user_agreement.htm [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Frchr
 404.htm [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Frchrdmess.github.io%2FRM_Milestone_Project_1%2F404.htm) 
 
 When passed through the W3C Markup Validation Service index.htm returned the following results:
-  - 8 aria-label misuse warnings returned on the index page, which have been dismissed by the author.
-  - 1 query regarding the Google Map iFrame width. This has purposely been set as a percentage for better alignment.
+  - 7 aria-label misuse warnings returned on the index page, which have been dismissed by the author.
 
 ### CSS Validation
 
@@ -400,16 +401,49 @@ style.css [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2
 
 ### Accessibility
 
-Accessibility testing returns three errors. One notes an empty link on an element that is hidden, which the developer has discounted as irrelevant. Two note missing form labels in the modal window. The developer is unable to identify these as the modal window cant be loaded on screen for the software tool to highlight what it is specifically referring to. As a result, r
+Accessibility testing returns three errors. One notes an empty link on an element that is hidden, which the developer has discounted as irrelevant. Two note missing form labels in the modal window. The developer is unable to identify these as the modal window cant be loaded on screen for the software tool to highlight what it is specifically referring to. As a result,
 the modal has been re-tested using the Voice Over utility and no apparent errors exist. All elements are described by Voice Over as intended.
 
-![Accessibility Results](docs/accessibility_results.png)
+The contrast errors on the index page relate to the timeline in the about section. These have been discounted as their settings are the same as the other sections and any issues reading the large quantity of text can be resolved by zooming the screen, a feature available as standard on all browsers.
+
+![Accessibility Results](docs/accessibility_results.jpeg)
+
+index.htm [results](https://wave.webaim.org/report#/https://rchrdmess.github.io/RM_Milestone_Project_1/)
+
+faqs.htm [results](https://wave.webaim.org/report#/https://rchrdmess.github.io/RM_Milestone_Project_1/faqs.htm) 
+
+jobs.htm [results](https://wave.webaim.org/report#/https://rchrdmess.github.io/RM_Milestone_Project_1/jobs.htm) 
+
+press.htm [results](https://wave.webaim.org/report#/https://rchrdmess.github.io/RM_Milestone_Project_1/press.htm) 
+
+privacy.htm [results](https://wave.webaim.org/report#/https://rchrdmess.github.io/RM_Milestone_Project_1/privacy.htm) 
+
+reviews.htm [results](https://wave.webaim.org/report#/https://rchrdmess.github.io/RM_Milestone_Project_1/reviews.htm) 
+
+user_agreement.htm [results](https://wave.webaim.org/report#/https://rchrdmess.github.io/RM_Milestone_Project_1/user_agreement.htm) 
+
+404.htm [results](https://wave.webaim.org/report#/https://rchrdmess.github.io/RM_Milestone_Project_1/404.htm) 
+
 
 ### Performance
 
 Running the main page through Google Lighthouse returns acceptable results.
 
-![Lighthouse Results](docs/lighthouse_results.png)
+index.htm [results](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Frchrdmess.github.io%2FRM_Milestone_Project_1%2Findex.htm%23services&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext)
+
+faqs.htm [results](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Frchrdmess.github.io%2FRM_Milestone_Project_1%2Ffaqs.htm&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext) 
+
+jobs.htm [results](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Frchrdmess.github.io%2FRM_Milestone_Project_1%2Fjobs.htm&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext) 
+
+press.htm [results](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Frchrdmess.github.io%2FRM_Milestone_Project_1%2Fpress.htm&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext) 
+
+privacy.htm [results](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Frchrdmess.github.io%2FRM_Milestone_Project_1%2Fprivacy.htm&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext) 
+
+reviews.htm [results](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Frchrdmess.github.io%2FRM_Milestone_Project_1%2Freviews.htm&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext) 
+
+user_agreement.htm [results](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Frchrdmess.github.io%2FRM_Milestone_Project_1%2Fua.htm&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext) 
+
+404.htm [results](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Frchrdmess.github.io%2FRM_Milestone_Project_1%2F404.htm&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext) 
 
 ### Device testing
 
@@ -601,8 +635,7 @@ The width of the page was also displaying wider than that of the screen, even th
                  }
                }
                </script>
-</div>
-```
+</div>```
 #### Old CSS
 ```css
 .nav_bar { 
@@ -633,7 +666,7 @@ text-decoration: none;
 margin: 0.1%;
 font-size:14px;
 }
-```
+           ```
 #### New CSS
 ```
 css
@@ -698,7 +731,7 @@ font-size:14px;
 ```
 #### Results
 
-![Navigation Bar on Small Screens](docs/navigation_bar_narrow.png)
+![Navigation Bar on Small Screens](docs/navigation_bar_narrow)
 
 ## Deployment
 
