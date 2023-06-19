@@ -658,7 +658,7 @@ text-align: center;
 
 .close:hover,
 .close:focus {
-  color: #425eac;
+  color: #f1d6a3;
   text-decoration: none;
   cursor: pointer;
 }
@@ -777,8 +777,8 @@ input[type=email], select, textarea {
 }
 
 input[type=submit] {
-  background-color: gold;
-color: #662211;
+  background-color: #662211;
+color: #ffffff;
   padding: 8px 12px;
   border: none;
   border-radius: 4px;
@@ -1025,5 +1025,8 @@ padding: 2px 14px;
 }
 .mod { /* Changes the behaviour of paragraphs in the modal header. */
 font-size: 16px;
+}
+.mod img {
+width: 75%;
 }
 }
