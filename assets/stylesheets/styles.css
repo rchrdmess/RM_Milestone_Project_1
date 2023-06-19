@@ -331,6 +331,10 @@ width:60%;
 border: 15px solid #f1d6a3;
 }
 
+.contact_map img {
+max-width:100%;
+}
+
 .contact_right {
 background: #f1d6a3;
 color: #662211;
