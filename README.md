@@ -390,9 +390,6 @@ user_agreement.htm [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Frchr
 
 404.htm [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Frchrdmess.github.io%2FRM_Milestone_Project_1%2F404.htm) 
 
-When passed through the W3C Markup Validation Service index.htm returned the following results:
-  - 7 aria-label misuse warnings returned on the index page, which have been dismissed by the author.
-
 ### CSS Validation
 
 The W3C Jigsaw CSS Validation Service passed the stylesheet with no errors.
@@ -401,10 +398,11 @@ style.css [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2
 
 ### Accessibility
 
-Accessibility testing returns three errors. One notes an empty link on an element that is hidden, which the developer has discounted as irrelevant. Two note missing form labels in the modal window. The developer is unable to identify these as the modal window cant be loaded on screen for the software tool to highlight what it is specifically referring to. As a result,
-the modal has been re-tested using the Voice Over utility and no apparent errors exist. All elements are described by Voice Over as intended.
+Accessibility testing returns two errors:
 
-The contrast errors on the index page relate to the timeline in the about section. These have been discounted as their settings are the same as the other sections and any issues reading the large quantity of text can be resolved by zooming the screen, a feature available as standard on all browsers.
+1. Notes an empty link on an element that is hidden, which the developer has discounted as irrelevant because no user is able to view it at teh intention of the developer.
+
+2. Notes a missing form label in the modal window. The developer is unable to identify these as the modal window cant be loaded on screen for the software tool to highlight what it is specifically referring to. As a result, the modal has been re-tested using the Voice Over utility and no apparent errors exist. All elements are described by Voice Over as intended.
 
 ![Accessibility Results](docs/accessibility_results.jpeg)
 
@@ -429,19 +427,35 @@ user_agreement.htm [results](https://wave.webaim.org/report#/https://rchrdmess.g
 
 Running the main page through Google Lighthouse returns acceptable results.
 
+![Index Performance image](docs/user_agreement_performance.webp)
+
 index.htm [results](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Frchrdmess.github.io%2FRM_Milestone_Project_1%2Findex.htm%23services&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext)
+
+![FAQS Performance image](docs/faqs_performance.webp)
 
 faqs.htm [results](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Frchrdmess.github.io%2FRM_Milestone_Project_1%2Ffaqs.htm&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext) 
 
+![Jobs Performance image](docs/jobs_performance.webp)
+
 jobs.htm [results](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Frchrdmess.github.io%2FRM_Milestone_Project_1%2Fjobs.htm&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext) 
 
-press.htm [results](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Frchrdmess.github.io%2FRM_Milestone_Project_1%2Fpress.htm&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext) 
+![Press Performance image](docs/press_performance.webp)
 
-privacy.htm [results](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Frchrdmess.github.io%2FRM_Milestone_Project_1%2Fprivacy.htm&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext) 
+press.htm [results](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Frchrdmess.github.io%2FRM_Milestone_Project_1%2Fpress.htm&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext)  
+
+![Privacy Performance image](docs/privacy_performance.webp)
+
+privacy.htm [results](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Frchrdmess.github.io%2FRM_Milestone_Project_1%2Fprivacy.htm&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext)  
+
+![Reviews Performance image](docs/reviews_performance.webp)
 
 reviews.htm [results](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Frchrdmess.github.io%2FRM_Milestone_Project_1%2Freviews.htm&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext) 
 
-user_agreement.htm [results](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Frchrdmess.github.io%2FRM_Milestone_Project_1%2Fua.htm&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext) 
+![User Agreement Performance Image](docs/user_agreement_performance.webp)
+
+user_agreement.htm [results](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Frchrdmess.github.io%2FRM_Milestone_Project_1%2Fua.htm&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext)  
+
+![404 Performance Image](docs/user_agreement_performance.webp)
 
 404.htm [results](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Frchrdmess.github.io%2FRM_Milestone_Project_1%2F404.htm&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext) 
 
@@ -472,6 +486,10 @@ The website was tested on the following browsers:
 | Footer - corporate information section | On any page view the footer | View the FAQ page via link | Works as intended |
 | Navigation Bar | On any page click 'Corporate' in the navigation bar | Information is provided | Works as intended |
 
+![Main Page Scroll Image](docs/main_page_scroll_down.webp)
+![Click FAQ Image](docs/click_faq_link_footer.webp)
+![Click Corporate Menu Bar Image](docs/click_corporate_menu_bar.webp)
+![Click Services Menu Bar Image](docs/click_services_menu_bar.webp)
 
 2. Who is in the Market-Win team
 
@@ -480,6 +498,7 @@ The website was tested on the following browsers:
 | Main Page | On Index scroll down to team section | Information is provided | Works as intended |
 | Navigation Bar | On any page click 'Team' in the navigation bar | Information is provided | Works as intended |
 
+![Click Team Menu Bar  Image](docs/click_team_menu_bar.webp)
 
 3. How to contact Market-Win
 
@@ -487,7 +506,10 @@ The website was tested on the following browsers:
 |-------------|------------|---------------------|-------------------|
 | Main Page | On Index scroll down to contact section | Information is provided | Works as intended |
 | Navigation Bar | On any page click 'Contact' in the navigation bar | Information is provided | Works as intended |
+| Navigation Bar | On any page click 'Schedule A meeting' in the navigation bar | Information is provided | Works as intended |
 
+![Click Contact Menu Bar Image](docs/click_contact_menu_bar.webp)
+![Open Modal Image](docs/open_modal.webp)
 
 4. Could Market-Win provide a good service
 
@@ -498,6 +520,11 @@ The website was tested on the following browsers:
 | Navigation Bar | On any page click 'Corporate' in the navigation bar | Information is provided | Works as intended |
 | Corporate Pages | On any page click 'Reviews' in the footer | Information is provided | Works as intended |
 
+![Viewing About Image](docs/viewing_about_article.webp)
+![Click About Menu Image](docs/click_about_menu_bar.webp)
+![Click Corporate Menu Bar Image](docs/click_corporate_menu_bar.webp)
+![Click Reviews Footer Image](docs/click_client_reviews_link_footer.webp)
+
 5. Is Market-Win on social media
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -505,12 +532,20 @@ The website was tested on the following browsers:
 | All Pages | Scroll down to footer | Information is provided | Works as intended |
 | Navigation Bar | On any page click 'Corporate' in the navigation bar | Information is provided | Works as intended |
 
+![Main Page Scroll Image](docs/main_page_scroll_down.webp)
+![Click Corporate Menu Bar Image](docs/click_corporate_menu_bar.webp)
+
 6. Could I work for Market-Win
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Footer - corporate information section | On any page view the footer | Click the Jobs page | Works as intended |
 | Navigation Bar | On any page click 'Corporate' in the navigation bar | Information is provided via link | Works as intended |
+| FAQ Page | On FAQs page click 'Jobs Board' in the third item | Information is provided via link | Works as intended |
+
+![Click Jobs Footer Image](docs/click_jobs_link_footer.webp)
+![Click Corporate Menu Bar Image](docs/click_corporate_menu_bar.webp)
+![Vewing FAQ 3 Image](docs/viewing_faqs3_article.webp)
 
 #### Repeat Visit
 
@@ -521,6 +556,10 @@ The website was tested on the following browsers:
 | Footer - corporate information section | On any page view the footer | View the pages via the links | Works as intended |
 | Navigation Bar | On any page click 'Corporate' in the navigation bar | Information is provided | Works as intended |
 
+![Click Corporate Menu Bar Image](docs/click_corporate_menu_bar.webp)
+![Vewing FAQ 2 Image](docs/viewing_faqs2_article-2.webp)
+![Click Press Article Image](docs/click_press_release_article.webp)
+
 8. What are the terms of service
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -528,12 +567,19 @@ The website was tested on the following browsers:
 | Footer - corporate information section | On any page view the footer | View the Privacy and User Agreement pages via the links | Works as intended |
 | Navigation Bar | On any page click 'Corporate' in the navigation bar | Information is provided via links | Works as intended |
 
+![Click Privacy in Footer Image](docs/click_privacy_statement_link_footer.webp)
+![Click User Agreement in Footer Image](docs/click_user_agreement_link_footer.webp)
+![Click Corporate Menu Bar Image](docs/click_corporate_menu_bar.webp)
+
 9. Will any data I provide be safe
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Footer - corporate information section | On any page view the footer | View the User Agreement page via the links | Works as intended |
 | Navigation Bar | On any page click 'Corporate' in the navigation bar | Information is provided via links | Works as intended |
+
+![Click User Agreement in Footer Image](docs/click_user_agreement_link_footer.webp)
+![Click Corporate Menu Bar Image](docs/click_corporate_menu_bar.webp)
 
 #### Site Owner 
 
@@ -550,6 +596,15 @@ The website was tested on the following browsers:
 | Corporate Pages | On any page click 'Reviews' in the footer | Information is provided | Works as intended |
 | Navigation Bar | On any page click 'Contact' in the navigation bar | Information is provided | Works as intended |
 
+![Viewing About Image](docs/viewing_about_article.webp)
+![Open Modal Image](docs/open_modal.webp)
+![Click Shedule a Meeting Image](docs/click_schedule_a_meeting_menu_bar.webp)
+![Click Corporate Menu Bar Image](docs/click_corporate_menu_bar.webp)
+![Click Team Menu Bar Image](docs/click_team_menu_bar.webp)
+![Click Services Menu Bar Image](docs/click_services_menu_bar.webp)
+![Click Reviews in Footer Image](docs/click_client_reviews_link_footer.webp)
+![Click Contact Menu Bar Image](docs/click_contact_menu_bar.webp)
+
 11. I want to increase our client base
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -558,15 +613,19 @@ The website was tested on the following browsers:
 | Main Page | On Index scroll down to contact section | Information is provided | Works as intended |
 | Navigation Bar | On any page click 'Contact' in the navigation bar | Information is provided | Works as intended |
 | Main Page | On Index scroll down to contact section | Information is provided | Works as intended |
-| Navigation Bar | On any page click 'Contact' in the navigation bar | Information is provided | Works as intended |
+
+![Click Shedule a Meeting Image](docs/click_schedule_a_meeting_menu_bar.webp)
+![Click Contact Menu Bar Image](docs/click_contact_menu_bar.webp)
 
 12. I want to make our information readily available
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Main Page | On Index scroll down to contact section | Information is provided | Works as intended |
-| Navigation Bar | On any page click 'Contact' in the navigation bar | Information is provided | Works as intended |
+| Navigation Bar | On any page click 'About' in the navigation bar | Information is provided | Works as intended |
 | Header Meta Data | Information provided to search engines | Information is provided | Works as intended |
+
+![Click About Menu Image](docs/click_about_menu_bar.webp)
 
 13. I want to let people know who we are
 
@@ -576,6 +635,11 @@ The website was tested on the following browsers:
 | Navigation Bar | On any page click 'Team' in the navigation bar | Information is provided | Works as intended |
 | All Pages | Scroll down to footer | Information is provided | Works as intended |
 
+![Click Team Menu Bar Image](docs/click_team_menu_bar.webp)
+![Main Page Scroll Image](docs/main_page_scroll_down.webp)
+![Click Services Menu Bar Image](docs/click_services_menu_bar.webp)
+![Click About Menu Image](docs/click_about_menu_bar.webp)
+
 14. I want to let people know our track record
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -584,6 +648,10 @@ The website was tested on the following browsers:
 | Navigation Bar | On any page click 'About' in the navigation bar | Information is provided | Works as intended |
 | Navigation Bar | On any page click 'Corporate' in the navigation bar | Information is provided | Works as intended |
 | Corporate Pages | On any page click 'Reviews' in the footer | Information is provided | Works as intended |
+
+![Click About Menu Image](docs/click_about_menu_bar.webp)
+![Click Corporate Menu Bar Image](docs/click_corporate_menu_bar.webp)
+![Click Reviews in Footer Image](docs/click_client_reviews_link_footer.webp)
 
 15. I want to encourage people to contact us
 
@@ -595,6 +663,11 @@ The website was tested on the following browsers:
 | Main Page | On Index scroll down to contact section | Information is provided | Works as intended |
 | Navigation Bar | On any page click 'Contact' in the navigation bar | Information is provided | Works as intended |
 | Home button | On 404 error page click on 'Take Me home' button | Links to home page | Works as intended |
+
+![Click Shedule a Meeting Image](docs/click_schedule_a_meeting_menu_bar.webp)
+![Click Contact Menu Bar Image](docs/click_contact_menu_bar.webp)
+![Click Contact Privacy Image](docs/contact_link_privacy.webp)
+![Click Redirect Link Image](docs/404_redirect.webp)
 
 ## Bugs
 
@@ -744,6 +817,13 @@ The file was completed using a text editor and web browser before being deployed
   - Select "Save"
 
 The live Github link can be found here: <https://rchrdmess.github.io/RM_Milestone_Project_1/>
+
+To create a separate branch:
+- Navigate to code page.
+- select dropdown from 'main' branch.
+- create new branch.
+- upload files.
+- merge with main branch once conflicts checked.
 
 ## Credits
 
