@@ -475,7 +475,7 @@ The website was tested on the following browsers:
 | Navigation Bar | On any page click 'Corporate' in the navigation bar | Information is provided | Works as intended |
 
 <details><summary>Find Map / Address</summary>
-<img src="docs/user-story-testing/main_page_scroll_down.webp">
+<img src="docs/main_page_scroll_down.webp">
 ![Click FAQ Image](docs/click_faq_link_footer.webp)
 ![Click Corporate Menu Bar Image](docs/click_corporate_menu_bar.webp)
 ![Click Services Menu Bar Image](docs/click_services_menu_bar.webp)
@@ -843,5 +843,5 @@ A number of sources were used for the content and media on Market-Win's website.
 
 ## Acknowledgments
 
-**Written by** ***Richard Messenger***
-[Contents](#Contents)
+**Written by** ***Richard Messenger***  
+[Back to Contents](#Contents)
