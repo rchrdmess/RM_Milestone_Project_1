@@ -654,7 +654,7 @@ On initial inspection via Google Chrome's inspect tool, it became clear that the
 The width of the page was also displaying wider than that of the screen, even though widths were set to 100% or less. It was found that the Google Maps iframe, used to embed the address as displayed on Google Maps, had a width set to 400px. This was changed to 100% and the effect was eliviated. As a result, however, the W3 html checker then flagged an error that was ignored by the developer. (See 'testing' results number eight for index page above.)
 
 #### Old HTML
-```html
+html
             <div class="nav_bar" role="navigation">
              <a class="split" id="myBtn" role="button" aria-label="To schedule a meeting. Click this"><span>Schedule a meet  <i class='far fa-comments'></i></span></a>
              <a href="index.htm#contact" role="button">Contact</a>
@@ -663,9 +663,10 @@ The width of the page was also displaying wider than that of the screen, even th
              <a href="index.htm#services" role="button">Services</a>
              <a href="index.htm" aria-label="home" role="button"><i class='fas fa-home'></i></a>
             </div>
-```
+
 ##### New HTML
-```html
+
+html
             <div class="nav_bar" role="navigation" id="mynav_bar">
              <a class="split" id="myBtn" role="button" aria-label="To schedule a meeting. Click this">Schedule a meet&#160;&#160;<i class='far fa-comments'></i></a>
              <a href="index.htm" aria-label="home" role="button"><i class='fas fa-home'></i></a>
@@ -686,9 +687,11 @@ The width of the page was also displaying wider than that of the screen, even th
                  }
                }
                </script>
-</div>```
+</div>
+
 #### Old CSS
-```css
+
+css
 .nav_bar { 
 background-color: #662211; 
 position: fixed;
@@ -717,7 +720,7 @@ text-decoration: none;
 margin: 0.1%;
 font-size:14px;
 }
-           ```
+
 #### New CSS
 
 css
