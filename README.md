@@ -174,15 +174,11 @@ The website consists of eight separate pages:
 
 ### Wireframes
 
-<details><summary>Main Page</summary>
-![Main image](docs/wireframe_index.jpeg)
-</details>
-<details><summary>Corporate Page</summary>
-![Main image](docs/wireframe_corporate.jpeg)
-</details>
-<details><summary>Modal Window</summary>
-![Main image](docs/wireframe_modal.jpeg)
-</details>
+![Main image](assets/wireframe_index.webp)
+
+![Main image](assets/wireframe_corporate.webp)
+
+![Main image](assets/wireframe_modal.webp)
 
 ## Technologies
 
@@ -217,7 +213,6 @@ The website consists of eight separate pages:
 
 ![Market Win's Navigation Bar](docs/navigation_bar.jpeg)
 
-[Home](index.htm)  
 [Services](index.htm#services)  
 [Team](index.htm#team)  
 [About](index.htm#about)  
@@ -225,31 +220,26 @@ The website consists of eight separate pages:
 [Coporate](index.htm#corporate)  
 
 - Home section
-  - The first section directly beneath the navigation bar features Market-Win's especially commisioned animated logo and new slogan.
-  - It uses a picture along with a graphical overlay to easily comunicate Market-Win's strengths and cost effectivness.
-  - It is designed to convey a positive, approachable and successful view of the company.
+  - The first section directly beneath the navigation bar features Market-Win's logo and slogan.
+  - It is designed to convey a professional, approachable and successful view of the company.
 
-![The Market-Win logo](assets/main_logo.png)  
+![The Market-Win logo](assets/cropped_logo.webp)  
 Turn your marketing into a *market win*.
-
-![The home section background picture](assets/home_pic.png)  
-![The home section graph](assets/graph.jpeg)  
 
 - Services Section
   - The services section details the three main services the company is promoting through the new website.
   - Users will be shown a pictorial representation of each service.
   - A short paragraph will succinctly convey Market-Win's expertise.
-  - For user interaction purposes, the short paragraph changes colour when hovered over.
 
-![Social Media Image](assets/socialmedia.jpeg)  
+![Social Media Image](assets/social_media.webp)  
 #### Social Media
 No matter how you choose to connect with your customer base, we boast in-house experts for every social media platform, meaning we can get you engaged across the digital landscape.
 
-![Search Engine Optimisation Image](assets/seo.jpeg)  
+![Search Engine Optimisation Image](assets/seo.webp)  
 #### S.E.O.
 In this day and age, if you're not visible online, you may as well not exist. The more web traffic you drive to your website, the more leads you gain and the greater your chances of generating business.
 
-![Contant Marketing Image](assets/contentmarketing.jpeg)  
+![Contant Marketing Image](assets/content_marketing.webp)  
 #### Content Marketing
 With a glowing social media presence and a sturdy backend to your website, now all you need is content. Be it images, videos or blog posts, we've got the skills to engage your customers with strategic campaigns.
 
@@ -258,27 +248,27 @@ With a glowing social media presence and a sturdy backend to your website, now a
   - The tone of this section conveys the companies personality.
   - Key skills are communicated via an animation titled: Superpowers.
 
-![Mary's Profile Picture](assets/mary.jpeg)  
+![Mary's Profile Picture](assets/mary.webp)  
 **Mary's Job Title**   
 **Mary's Bio**  
 **Mary's Superpowers**
 
-![Joseph's Profile Picture](assets/joseph.jpeg)  
+![Joseph's Profile Picture](assets/joseph.webp)  
 **Joseph's Job Title**   
 **Joseph's Bio**  
 **Joseph's Superpowers**
 
-![Mo's Profile Picture](assets/mo.jpeg)  
+![Mo's Profile Picture](assets/mo.webp)  
 **Mo's Job Title**   
 **Mo's Bio**  
 **Mo's Superpowers**
 
-![Pauline's Profile Picture](assets/pauline.jpeg)  
+![Pauline's Profile Picture](assets/pauline.webp)  
 **Pauline's Job Title**   
 **Pauline's Bio**  
 **Pauline's Superpowers**
 
-![Peter's Profile Picture](assets/peter.jpeg)  
+![Peter's Profile Picture](assets/peter.webp)  
 **Peter's Job Title**   
 **Peter's Bio**  
 **Peter's Superpowers**
@@ -290,37 +280,27 @@ With a glowing social media presence and a sturdy backend to your website, now a
   - A graphical display illustrated Market-Win's core values, which are then listed and detailed below.
 
 #### A History of Market-Win
-![History Section Background Picture](assets/timeline.jpeg)  
-
-![Startup Picture](assets/startup.jpeg)  
+ 
 **1960, Start-up**  
-
-![Our First Client Picture](assets/customer.jpeg)  
+  
 **1961, Our First Client**  
-
-![Office Space Picture](assets/move.jpeg)  
+  
 **1963, Office Space**  
-
-![Minions Picture](assets/team.jpeg)  
+ 
 **1964, Minions**  
 
-![Recognition Picture](assets/awards.jpeg)  
 **1966, Recognition**  
 
-![Stability Picture](assets/stability.jpeg)  
 **1970, Stability**  
-
-![Expansion Picture](assets/expansion.jpeg)  
+ 
 **1975, Expansion**  
 
-![Inventing the Yuppie Picture](assets/yuppie.jpeg)  
 **1985, Inventing the Yuppie**  
 
-![Domination Picture](assets/domination.jpeg)  
 **2000s, Domination**  
 
  #### Our Values Keep Us Happy
-![Graphical Display](assets/values.png)  
+![Graphical Display](assets/values.webp)  
 **Clients:** are at the heart of everything we do.  
 **Passion:** gets us up in the morning.  
 **Community:** because working is more than a job.  
@@ -331,7 +311,7 @@ With a glowing social media presence and a sturdy backend to your website, now a
 **Teamwork:** makes us stronger.  
 
 - Contact Section
-  - The contact section features an imbedded Google Map as well as Market-Win's address, phone and email.
+  - The contact section features a map as well as Market-Win's address, phone and email.
   - To help SEO, the address tag is used.
   - Email is provided as a mailto link.
 
@@ -366,7 +346,7 @@ The website was navigated using Apple's Voice Over and aria labels were added to
 
 The web form passed when run through Code Institutes form tester:
 
-![Form Completion Confirmation](docs/form_completion_confirmation)
+![Form Completion Confirmation](docs/form_completion_confirmation.jpeg)
 
 On deploying to GitHub, some alignment issues were noted when viewed on a phone for the first time and adjusted acordingly using Google Chrome's inspect feature. (See 'Bugs' below)
 
@@ -404,8 +384,6 @@ Accessibility testing returns two errors:
 
 2. Notes a missing form label in the modal window. The developer is unable to identify these as the modal window cant be loaded on screen for the software tool to highlight what it is specifically referring to. As a result, the modal has been re-tested using the Voice Over utility and no apparent errors exist. All elements are described by Voice Over as intended.
 
-![Accessibility Results](docs/accessibility_results.jpeg)
-
 index.htm [results](https://wave.webaim.org/report#/https://rchrdmess.github.io/RM_Milestone_Project_1/)
 
 faqs.htm [results](https://wave.webaim.org/report#/https://rchrdmess.github.io/RM_Milestone_Project_1/faqs.htm) 
@@ -427,7 +405,7 @@ user_agreement.htm [results](https://wave.webaim.org/report#/https://rchrdmess.g
 
 Running the main page through Google Lighthouse returns acceptable results.
 
-![Index Performance image](docs/user_agreement_performance.webp)
+![Index Performance image](docs/index_performance.webp)
 
 index.htm [results](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Frchrdmess.github.io%2FRM_Milestone_Project_1%2Findex.htm%23services&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext)
 
@@ -804,7 +782,7 @@ font-size:14px;
 ```
 #### Results
 
-![Navigation Bar on Small Screens](docs/navigation_bar_narrow)
+![Navigation Bar on Small Screens](docs/navigation_bar_narrow.jpeg)
 
 ## Deployment
 
