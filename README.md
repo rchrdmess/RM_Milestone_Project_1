@@ -71,7 +71,8 @@ The key goal is to convey the company's experience and ethos through a straight-
 - To convey all the key information in sections on a single page
 - To allow the sub-sections to stack vertically on smaller devices
 - Easy navigation
-- Clear colour contrast for visually impaired users
+- Clear colour contrast for visually impaired users  
+[Back to Contents](#Contents)
 
 ## User Experience
 
@@ -114,8 +115,8 @@ The key goal is to convey the company's experience and ethos through a straight-
 - I want to make our information readily available
 - I want to let people know who we are
 - I want to let people know our track record
-- I want to encourage people to contact us
-
+- I want to encourage people to contact us  
+[Back to Contents](#Contents)
 ## Design
 
 ### Design Choices
@@ -180,8 +181,8 @@ The website consists of eight separate pages:
 
 ![Main image](docs/wireframe_corporate.webp)
 
-![Main image](docs/wireframe_modal.webp)
-
+![Main image](docs/wireframe_modal.webp)  
+[Back to Contents](#Contents)  
 ## Technologies
 
 ### Languages
@@ -204,8 +205,8 @@ The website consists of eight separate pages:
 - [EZ Gif](https://ezgif.com/maker)
 - [Text Editor](https://support.apple.com/en-gb/guide/textedit/welcome/mac)
 - [Google Chrome](https://www.google.com/chrome/)
-- [Apple Voice Over](https://support.apple.com/en-gb/guide/iphone/iph3e2e415f/ios)
-
+- [Apple Voice Over](https://support.apple.com/en-gb/guide/iphone/iph3e2e415f/ios)  
+[Back to Contents](#Contents)  
 ## Features
 
 - Navigation Bar
@@ -344,8 +345,8 @@ With a glowing social media presence and a sturdy backend to your website, now a
 ### Future Features To Implement
 
 - Client Login
-- Jobs Portal
-
+- Jobs Portal  
+[Back to Contents](#Contents)  
 ## Testing
 
 All functions work as intended. There are no dead or erroneous links.
@@ -474,11 +475,11 @@ The website was tested on the following browsers:
 | Footer - corporate information section | On any page view the footer | View the FAQ page via link | Works as intended |
 | Navigation Bar | On any page click 'Corporate' in the navigation bar | Information is provided | Works as intended |
 
-<details><summary>Find Map / Address</summary>
-<img src="docs/main_page_scroll_down.webp">
-![Click FAQ Image](docs/click_faq_link_footer.webp)
-![Click Corporate Menu Bar Image](docs/click_corporate_menu_bar.webp)
-![Click Services Menu Bar Image](docs/click_services_menu_bar.webp)
+<details><summary>Evidence</summary>
+<img src="docs/main_page_scroll_down.webp">  
+    <img src="docs/click_faq_link_footer.webp">  
+    <img src="docs/click_corporate_menu_bar.webp">  
+    <img src="docs/click_services_menu_bar.webp">  
 </details>
 <br>
 2. Who is in the Market-Win team
@@ -488,7 +489,10 @@ The website was tested on the following browsers:
 | Main Page | On Index scroll down to team section | Information is provided | Works as intended |
 | Navigation Bar | On any page click 'Team' in the navigation bar | Information is provided | Works as intended |
 
-![Click Team Menu Bar  Image](docs/click_team_menu_bar.webp)
+<details><summary>Evidence</summary>
+<img src="docs/click_team_menu_bar.webp">  
+</details>
+<br>
 
 3. How to contact Market-Win
 
@@ -498,8 +502,11 @@ The website was tested on the following browsers:
 | Navigation Bar | On any page click 'Contact' in the navigation bar | Information is provided | Works as intended |
 | Navigation Bar | On any page click 'Schedule A meeting' in the navigation bar | Information is provided | Works as intended |
 
-![Click Contact Menu Bar Image](docs/click_contact_menu_bar.webp)
-![Open Modal Image](docs/open_modal.webp)
+<details><summary>Evidence</summary>
+<img src="docs/click_contact_menu_bar.webp">  
+    <img src="docs/open_modal.webp">  
+</details>
+<br>
 
 4. Could Market-Win provide a good service
 
@@ -510,10 +517,13 @@ The website was tested on the following browsers:
 | Navigation Bar | On any page click 'Corporate' in the navigation bar | Information is provided | Works as intended |
 | Corporate Pages | On any page click 'Reviews' in the footer | Information is provided | Works as intended |
 
-![Viewing About Image](docs/viewing_about_article.webp)
-![Click About Menu Image](docs/click_about_menu_bar.webp)
-![Click Corporate Menu Bar Image](docs/click_corporate_menu_bar.webp)
-![Click Reviews Footer Image](docs/click_client_reviews_link_footer.webp)
+<details><summary>Evidence</summary>
+<img src="docs/viewing_about_article.webp">  
+    <img src="docs/click_about_menu_bar.webp">  
+    <img src="docs/click_corporate_menu_bar.webp">  
+    <img src="docs/click_client_reviews_link_footer.webp">  
+</details>
+<br>
 
 5. Is Market-Win on social media
 
@@ -522,8 +532,11 @@ The website was tested on the following browsers:
 | All Pages | Scroll down to footer | Information is provided | Works as intended |
 | Navigation Bar | On any page click 'Corporate' in the navigation bar | Information is provided | Works as intended |
 
-![Main Page Scroll Image](docs/main_page_scroll_down.webp)
-![Click Corporate Menu Bar Image](docs/click_corporate_menu_bar.webp)
+<details><summary>Evidence</summary>
+<img src="docs/main_page_scroll_down.webp">  
+    <img src="docs/click_corporate_menu_bar.webp">  
+</details>
+<br>
 
 6. Could I work for Market-Win
 
@@ -533,9 +546,12 @@ The website was tested on the following browsers:
 | Navigation Bar | On any page click 'Corporate' in the navigation bar | Information is provided via link | Works as intended |
 | FAQ Page | On FAQs page click 'Jobs Board' in the third item | Information is provided via link | Works as intended |
 
-![Click Jobs Footer Image](docs/click_jobs_link_footer.webp)
-![Click Corporate Menu Bar Image](docs/click_corporate_menu_bar.webp)
-![Vewing FAQ 3 Image](docs/viewing_faqs3_article.webp)
+<details><summary>Evidence</summary>
+<img src="docs/click_jobs_link_footer.webp">  
+    <img src="docs/click_corporate_menu_bar.webp">  
+    <img src="docs/viewing_faqs3_article.webp">  
+</details>
+<br>
 
 #### Repeat Visit
 
@@ -546,9 +562,12 @@ The website was tested on the following browsers:
 | Footer - corporate information section | On any page view the footer | View the pages via the links | Works as intended |
 | Navigation Bar | On any page click 'Corporate' in the navigation bar | Information is provided | Works as intended |
 
-![Click Corporate Menu Bar Image](docs/click_corporate_menu_bar.webp)
-![Vewing FAQ 2 Image](docs/viewing_faqs2_article-2.webp)
-![Click Press Article Image](docs/click_press_release_article.webp)
+<details><summary>Evidence</summary>
+<img src="docs/click_corporate_menu_bar.webp">  
+    <img src="docs/viewing_faqs2_article-2.webp">  
+    <img src="docs/click_press_release_article.webp">  
+</details>
+<br>
 
 8. What are the terms of service
 
@@ -557,9 +576,12 @@ The website was tested on the following browsers:
 | Footer - corporate information section | On any page view the footer | View the Privacy and User Agreement pages via the links | Works as intended |
 | Navigation Bar | On any page click 'Corporate' in the navigation bar | Information is provided via links | Works as intended |
 
-![Click Privacy in Footer Image](docs/click_privacy_statement_link_footer.webp)
-![Click User Agreement in Footer Image](docs/click_user_agreement_link_footer.webp)
-![Click Corporate Menu Bar Image](docs/click_corporate_menu_bar.webp)
+<details><summary>Evidence</summary>
+<img src="docs/click_privacy_statement_link_footer.webp">  
+    <img src="docs/click_user_agreement_link_footer.webp">  
+    <img src="docs/click_corporate_menu_bar.webp">  
+</details>
+<br>
 
 9. Will any data I provide be safe
 
@@ -568,8 +590,11 @@ The website was tested on the following browsers:
 | Footer - corporate information section | On any page view the footer | View the User Agreement page via the links | Works as intended |
 | Navigation Bar | On any page click 'Corporate' in the navigation bar | Information is provided via links | Works as intended |
 
-![Click User Agreement in Footer Image](docs/click_user_agreement_link_footer.webp)
-![Click Corporate Menu Bar Image](docs/click_corporate_menu_bar.webp)
+<details><summary>Evidence</summary>
+<img src="docs/click_user_agreement_link_footer.webp">  
+    <img src="docs/click_corporate_menu_bar.webp">  
+</details>
+<br>
 
 #### Site Owner 
 
@@ -586,14 +611,17 @@ The website was tested on the following browsers:
 | Corporate Pages | On any page click 'Reviews' in the footer | Information is provided | Works as intended |
 | Navigation Bar | On any page click 'Contact' in the navigation bar | Information is provided | Works as intended |
 
-![Viewing About Image](docs/viewing_about_article.webp)
-![Open Modal Image](docs/open_modal.webp)
-![Click Shedule a Meeting Image](docs/click_schedule_a_meeting_menu_bar.webp)
-![Click Corporate Menu Bar Image](docs/click_corporate_menu_bar.webp)
-![Click Team Menu Bar Image](docs/click_team_menu_bar.webp)
-![Click Services Menu Bar Image](docs/click_services_menu_bar.webp)
-![Click Reviews in Footer Image](docs/click_client_reviews_link_footer.webp)
-![Click Contact Menu Bar Image](docs/click_contact_menu_bar.webp)
+<details><summary>Evidence</summary>
+<img src="docs/viewing_about_article.webp">  
+    <img src="docs/open_modal.webp">  
+    <img src="docs/click_schedule_a_meeting_menu_bar.webp">  
+    <img src="docs/click_corporate_menu_bar.webp">  
+    <img src="docs/click_team_menu_bar.webp">  
+    <img src="docs/click_services_menu_bar.webp">  
+    <img src="docs/click_client_reviews_link_footer.webp">  
+    <img src="docs/click_contact_menu_bar.webp">  
+</details>
+<br>
 
 11. I want to increase our client base
 
@@ -604,8 +632,11 @@ The website was tested on the following browsers:
 | Navigation Bar | On any page click 'Contact' in the navigation bar | Information is provided | Works as intended |
 | Main Page | On Index scroll down to contact section | Information is provided | Works as intended |
 
-![Click Shedule a Meeting Image](docs/click_schedule_a_meeting_menu_bar.webp)
-![Click Contact Menu Bar Image](docs/click_contact_menu_bar.webp)
+<details><summary>Evidence</summary>
+<img src="docs/click_schedule_a_meeting_menu_bar.webp">  
+    <img src="docs/click_contact_menu_bar.webp">  
+</details>
+<br>
 
 12. I want to make our information readily available
 
@@ -615,7 +646,10 @@ The website was tested on the following browsers:
 | Navigation Bar | On any page click 'About' in the navigation bar | Information is provided | Works as intended |
 | Header Meta Data | Information provided to search engines | Information is provided | Works as intended |
 
-![Click About Menu Image](docs/click_about_menu_bar.webp)
+<details><summary>Evidence</summary>
+<img src="docs/click_about_menu_bar.webp">  
+</details>
+<br>
 
 13. I want to let people know who we are
 
@@ -625,10 +659,13 @@ The website was tested on the following browsers:
 | Navigation Bar | On any page click 'Team' in the navigation bar | Information is provided | Works as intended |
 | All Pages | Scroll down to footer | Information is provided | Works as intended |
 
-![Click Team Menu Bar Image](docs/click_team_menu_bar.webp)
-![Main Page Scroll Image](docs/main_page_scroll_down.webp)
-![Click Services Menu Bar Image](docs/click_services_menu_bar.webp)
-![Click About Menu Image](docs/click_about_menu_bar.webp)
+<details><summary>Evidence</summary>
+<img src="docs/click_team_menu_bar.webp">  
+    <img src="docs/main_page_scroll_down.webp">  
+    <img src="docs/click_services_menu_bar.webp">  
+    <img src="docs/click_about_menu_bar.webp">  
+</details>
+<br>
 
 14. I want to let people know our track record
 
@@ -639,9 +676,12 @@ The website was tested on the following browsers:
 | Navigation Bar | On any page click 'Corporate' in the navigation bar | Information is provided | Works as intended |
 | Corporate Pages | On any page click 'Reviews' in the footer | Information is provided | Works as intended |
 
-![Click About Menu Image](docs/click_about_menu_bar.webp)
-![Click Corporate Menu Bar Image](docs/click_corporate_menu_bar.webp)
-![Click Reviews in Footer Image](docs/click_client_reviews_link_footer.webp)
+<details><summary>Evidence</summary>
+<img src="docs/click_about_menu_bar.webp">  
+    <img src="docs/click_corporate_menu_bar.webp">  
+    <img src="docs/click_client_reviews_link_footer.webp">  
+</details>
+<br>
 
 15. I want to encourage people to contact us
 
@@ -654,10 +694,13 @@ The website was tested on the following browsers:
 | Navigation Bar | On any page click 'Contact' in the navigation bar | Information is provided | Works as intended |
 | Home button | On 404 error page click on 'Take Me home' button | Links to home page | Works as intended |
 
-![Click Shedule a Meeting Image](docs/click_schedule_a_meeting_menu_bar.webp)
-![Click Contact Menu Bar Image](docs/click_contact_menu_bar.webp)
-![Click Contact Privacy Image](docs/contact_link_privacy.webp)
-![Click Redirect Link Image](docs/404_redirect.webp)
+<details><summary>Evidence</summary>
+<img src="docs/click_schedule_a_meeting_menu_bar.webp">  
+    <img src="docs/click_contact_menu_bar.webp">  
+    <img src="docs/contact_link_privacy.webp">  
+    <img src="docs/404_redirect.webp">  
+</details>
+<br>
 
 ## Bugs
 
@@ -797,8 +840,8 @@ font-size:14px;
 
 #### Results
 
-![Navigation Bar on Small Screens](docs/navigation_bar_narrow.jpeg)
-
+![Navigation Bar on Small Screens](docs/navigation_bar_narrow.jpeg)  
+[Back to Contents](#Contents)  
 ## Deployment
 
 The file was completed using a text editor and web browser before being deployed to GitHub pages. The steps to deploy were as follows:
