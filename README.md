@@ -72,7 +72,8 @@ The key goal is to convey the company's experience and ethos through a straight-
 - To allow the sub-sections to stack vertically on smaller devices
 - Easy navigation
 - Clear colour contrast for visually impaired users  
-[Back to Contents](#Contents)
+  
+[Back to Contents](#Contents)  
   
 ## User Experience
 
@@ -116,7 +117,9 @@ The key goal is to convey the company's experience and ethos through a straight-
 - I want to let people know who we are
 - I want to let people know our track record
 - I want to encourage people to contact us  
-[Back to Contents](#Contents)
+  
+[Back to Contents](#Contents)  
+  
 ## Design
 
 ### Design Choices
@@ -182,7 +185,7 @@ The website consists of eight separate pages:
 ![Main image](docs/wireframe_corporate.webp)
 
 ![Main image](docs/wireframe_modal.webp)  
-
+  
 [Back to Contents](#Contents)  
   
 ## Technologies Used
@@ -350,7 +353,8 @@ With a glowing social media presence and a sturdy backend to your website, now a
 
 - Client Login
 - Jobs Portal  
-[Back to Contents](#Contents)
+  
+[Back to Contents](#Contents)  
   
 ## Testing
 
@@ -848,7 +852,9 @@ font-size:14px;
 #### Results
 
 ![Navigation Bar on Small Screens](docs/navigation_bar_narrow.jpeg)  
+  
 [Back to Contents](#Contents)  
+  
 ## Deployment
 
 The file was completed using a text editor and web browser before being deployed to GitHub pages. The steps to deploy were as follows:
@@ -891,7 +897,8 @@ A number of sources were used for the content and media on Market-Win's website.
     - Peter profile picture: <https://www.vecteezy.com/vector-art/7043161-male-avatar-smiling-portrait-of-a-cheerful-young-man-with-a-happy-smile>
     - Navigation bar and social media icons provided by: <https://www.fontawesome.com>
 
-## Acknowledgments
+## Acknowledgements
 
 **Written by** ***Richard Messenger***  
-[Back to Contents](#Contents)
+  
+[Back to Contents](#Contents)  
