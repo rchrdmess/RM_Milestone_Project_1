@@ -220,7 +220,7 @@ The website consists of eight separate pages:
   - Sticking to the top of every page, the navigation bar contains links to all the sections on the main page, plus a link to book a meeting with the company.
   - It is the same on every page.
   - It works across various screen sizes, allowing for easy navigation without the need of the back button
-  - User stories covered: 
+  - User stories covered: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
 
 ![Market Win's Navigation Bar](docs/navigation_bar.jpeg)
 
@@ -233,7 +233,7 @@ The website consists of eight separate pages:
 - Home section
   - The first section directly beneath the navigation bar features Market-Win's logo and slogan.
   - It is designed to convey a professional, approachable and successful view of the company.
-  - User stories covered: 
+  - User stories covered: 1, 10, 11, 13
 
 ![The Market-Win logo](docs/cropped_logo.webp)  
 Turn your marketing into a *market win*.
@@ -242,7 +242,7 @@ Turn your marketing into a *market win*.
   - The services section details the three main services the company is promoting through the new website.
   - Users will be shown a pictorial representation of each service.
   - A short paragraph will succinctly convey Market-Win's expertise.
-  - User stories covered:
+  - User stories covered: 1, 4, 10, 11, 12, 15
 
 ![Social Media Image](docs/social_media.webp)  
 #### Social Media
@@ -260,7 +260,7 @@ With a glowing social media presence and a sturdy backend to your website, now a
   - The team section introduces Market-Win's leadership team, providing a profile picture, job title, brief bio and key skills of each.
   - The tone of this section conveys the companies personality.
   - Key skills are communicated via an animation titled: Superpowers.
-  - User stories covered:
+  - User stories covered: 2, 10, 12, 13, 15
 
 ![Mary's Profile Picture](docs/mary.webp)  
 **Mary's Job Title**   
@@ -292,7 +292,7 @@ With a glowing social media presence and a sturdy backend to your website, now a
   - Market-Win's history is communicated via a timeline and illustrated with pictures representing the key milestones.
     - Summary and detail attributes are used to present the information cleanly.
   - A graphical display illustrated Market-Win's core values, which are then listed and detailed below.
-  - User stories covered:
+  - User stories covered: 1, 4, 10, 11, 12, 13, 14, 15
 
 #### A History of Market-Win
  
@@ -329,7 +329,7 @@ With a glowing social media presence and a sturdy backend to your website, now a
   - The contact section features a map as well as Market-Win's address, phone and email.
   - To help SEO, the address tag is used.
   - Email is provided as a mailto link.
-  - User stories covered:
+  - User stories covered: 3, 10, 11, 12, 13, 15
 
 - Footer Section
   - The footer contains Market-Win's logo, corporate pages and social media links.
@@ -344,10 +344,10 @@ With a glowing social media presence and a sturdy backend to your website, now a
     - Press Releases
     - User Agreement
     - Privacy Statement
-  - User stories covered: 
+  - User stories covered: 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
 - 404:
     - Contains a conveniently located button to help the user return to the main page.
-    - User stories covered: 15
+    - User stories covered: 7, 10, 11, 12, 13, 15
 
 ### Future Features To Implement
 
