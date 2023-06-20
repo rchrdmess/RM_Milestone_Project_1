@@ -130,11 +130,13 @@ The scheme chosen was 'chocolate and coffee' as these are every marketeer's favo
 
 - Background: chocolate, #662211
 - Navigation text: white, #ffffff
+- Section headings: whte, #ffffff
 - Navigation bar: chocolate, #662211
 - Section divisions: coffee, #f1d6a3
-- Section text: brown, #662211
+- Section text: chocolate, #662211
 - Corporate pages menu: coffee, #f1d6a3
 - Corporate pages menu text: brown, #662211
+- Corporate pages info text: whte, #ffffff and coffee, #f1d6a3
 
 #### Text Ratios
 
