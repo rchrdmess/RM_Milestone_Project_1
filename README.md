@@ -719,7 +719,7 @@ font-size:14px;
 }
            ```
 #### New CSS
-```
+
 css
 
 .nav_bar { 
@@ -779,8 +779,6 @@ font-size:14px;
     text-align: left;
   }
 }
-
-```
 
 #### Results
 
