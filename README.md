@@ -174,11 +174,11 @@ The website consists of eight separate pages:
 
 ### Wireframes
 
-![Main image](assets/wireframe_index.webp)
+![Main image](docs/wireframe_index.webp)
 
-![Main image](assets/wireframe_corporate.webp)
+![Main image](docs/wireframe_corporate.webp)
 
-![Main image](assets/wireframe_modal.webp)
+![Main image](docs/wireframe_modal.webp)
 
 ## Technologies
 
@@ -223,7 +223,7 @@ The website consists of eight separate pages:
   - The first section directly beneath the navigation bar features Market-Win's logo and slogan.
   - It is designed to convey a professional, approachable and successful view of the company.
 
-![The Market-Win logo](assets/cropped_logo.webp)  
+![The Market-Win logo](docs/cropped_logo.webp)  
 Turn your marketing into a *market win*.
 
 - Services Section
@@ -231,15 +231,15 @@ Turn your marketing into a *market win*.
   - Users will be shown a pictorial representation of each service.
   - A short paragraph will succinctly convey Market-Win's expertise.
 
-![Social Media Image](assets/social_media.webp)  
+![Social Media Image](docs/social_media.webp)  
 #### Social Media
 No matter how you choose to connect with your customer base, we boast in-house experts for every social media platform, meaning we can get you engaged across the digital landscape.
 
-![Search Engine Optimisation Image](assets/seo.webp)  
+![Search Engine Optimisation Image](docs/seo.webp)  
 #### S.E.O.
 In this day and age, if you're not visible online, you may as well not exist. The more web traffic you drive to your website, the more leads you gain and the greater your chances of generating business.
 
-![Contant Marketing Image](assets/content_marketing.webp)  
+![Contant Marketing Image](docs/content_marketing.webp)  
 #### Content Marketing
 With a glowing social media presence and a sturdy backend to your website, now all you need is content. Be it images, videos or blog posts, we've got the skills to engage your customers with strategic campaigns.
 
@@ -248,27 +248,27 @@ With a glowing social media presence and a sturdy backend to your website, now a
   - The tone of this section conveys the companies personality.
   - Key skills are communicated via an animation titled: Superpowers.
 
-![Mary's Profile Picture](assets/mary.webp)  
+![Mary's Profile Picture](docs/mary.webp)  
 **Mary's Job Title**   
 **Mary's Bio**  
 **Mary's Superpowers**
 
-![Joseph's Profile Picture](assets/joseph.webp)  
+![Joseph's Profile Picture](docs/joseph.webp)  
 **Joseph's Job Title**   
 **Joseph's Bio**  
 **Joseph's Superpowers**
 
-![Mo's Profile Picture](assets/mo.webp)  
+![Mo's Profile Picture](docs/mo.webp)  
 **Mo's Job Title**   
 **Mo's Bio**  
 **Mo's Superpowers**
 
-![Pauline's Profile Picture](assets/pauline.webp)  
+![Pauline's Profile Picture](docs/pauline.webp)  
 **Pauline's Job Title**   
 **Pauline's Bio**  
 **Pauline's Superpowers**
 
-![Peter's Profile Picture](assets/peter.webp)  
+![Peter's Profile Picture](docs/peter.webp)  
 **Peter's Job Title**   
 **Peter's Bio**  
 **Peter's Superpowers**
@@ -300,7 +300,7 @@ With a glowing social media presence and a sturdy backend to your website, now a
 **2000s, Domination**  
 
  #### Our Values Keep Us Happy
-![Graphical Display](assets/values.webp)  
+![Graphical Display](docs/values.webp)  
 **Clients:** are at the heart of everything we do.  
 **Passion:** gets us up in the morning.  
 **Community:** because working is more than a job.  
@@ -779,7 +779,9 @@ font-size:14px;
     text-align: left;
   }
 }
+
 ```
+
 #### Results
 
 ![Navigation Bar on Small Screens](docs/navigation_bar_narrow.jpeg)
