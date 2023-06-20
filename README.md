@@ -212,6 +212,7 @@ The website consists of eight separate pages:
   - Sticking to the top of every page, the navigation bar contains links to all the sections on the main page, plus a link to book a meeting with the company.
   - It is the same on every page.
   - It works across various screen sizes, allowing for easy navigation without the need of the back button
+  - User stories covered: 
 
 ![Market Win's Navigation Bar](docs/navigation_bar.jpeg)
 
@@ -224,6 +225,7 @@ The website consists of eight separate pages:
 - Home section
   - The first section directly beneath the navigation bar features Market-Win's logo and slogan.
   - It is designed to convey a professional, approachable and successful view of the company.
+  - User stories covered: 
 
 ![The Market-Win logo](docs/cropped_logo.webp)  
 Turn your marketing into a *market win*.
@@ -232,6 +234,7 @@ Turn your marketing into a *market win*.
   - The services section details the three main services the company is promoting through the new website.
   - Users will be shown a pictorial representation of each service.
   - A short paragraph will succinctly convey Market-Win's expertise.
+  - User stories covered:
 
 ![Social Media Image](docs/social_media.webp)  
 #### Social Media
@@ -249,6 +252,7 @@ With a glowing social media presence and a sturdy backend to your website, now a
   - The team section introduces Market-Win's leadership team, providing a profile picture, job title, brief bio and key skills of each.
   - The tone of this section conveys the companies personality.
   - Key skills are communicated via an animation titled: Superpowers.
+  - User stories covered:
 
 ![Mary's Profile Picture](docs/mary.webp)  
 **Mary's Job Title**   
@@ -280,6 +284,7 @@ With a glowing social media presence and a sturdy backend to your website, now a
   - Market-Win's history is communicated via a timeline and illustrated with pictures representing the key milestones.
     - Summary and detail attributes are used to present the information cleanly.
   - A graphical display illustrated Market-Win's core values, which are then listed and detailed below.
+  - User stories covered:
 
 #### A History of Market-Win
  
@@ -316,6 +321,7 @@ With a glowing social media presence and a sturdy backend to your website, now a
   - The contact section features a map as well as Market-Win's address, phone and email.
   - To help SEO, the address tag is used.
   - Email is provided as a mailto link.
+  - User stories covered:
 
 - Footer Section
   - The footer contains Market-Win's logo, corporate pages and social media links.
@@ -330,8 +336,10 @@ With a glowing social media presence and a sturdy backend to your website, now a
     - Press Releases
     - User Agreement
     - Privacy Statement
+  - User stories covered: 
 - 404:
     - Contains a conveniently located button to help the user return to the main page.
+    - User stories covered: 15
 
 ### Future Features To Implement
 
@@ -466,11 +474,13 @@ The website was tested on the following browsers:
 | Footer - corporate information section | On any page view the footer | View the FAQ page via link | Works as intended |
 | Navigation Bar | On any page click 'Corporate' in the navigation bar | Information is provided | Works as intended |
 
+<details><summary>Find Map / Address</summary>
 ![Main Page Scroll Image](docs/main_page_scroll_down.webp)
 ![Click FAQ Image](docs/click_faq_link_footer.webp)
 ![Click Corporate Menu Bar Image](docs/click_corporate_menu_bar.webp)
 ![Click Services Menu Bar Image](docs/click_services_menu_bar.webp)
-
+</details>
+<br>
 2. Who is in the Market-Win team
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -819,31 +829,19 @@ A number of sources were used for the content and media on Market-Win's website.
 ### Media
 
 - Icons and favicons created by: <https://iconifier.net>
-- gif files created using: <https://ezgif.com/maker>
-- Home section background image courtesy of: <https://www.everypixel.com/image-4654968461161137741>
 - Services section pictures courtesy of:
     - Content marketing: <https://www.brafton.com/blog/content-marketing/heres-how-content-marketing-works-in-2019/>
     - Search engine optimisation: <https://www.thefrantzgroup.com/services/seo-improve-b2b-website/>
     - Social media: <https://axial.acs.org/publishing/3-ways-researchers-can-boost-their-social-media-savvy>
 - Team section pictures courtesy of:
-    - Background image: <https://www.architectsjournal.co.uk/news/opinion/the-office-is-dead-long-live-the-office>
     - Mary profile picture: <https://www.dreamstime.com/stock-illustration-female-avatar-icon-flat-style-female-user-icon-cartoon-woman-avatar-pink-hair-vector-stock-image91462795>
     - Joseph profile picture: <https://www.iconspng.com/image/93973/male-avatar-3>
     - Mo profile picture: <https://www.istockphoto.com/vector/male-avatar-icon-gm1331350800-414519302>
     - Pauline profile picture: <https://www.gettyimages.co.uk/detail/illustration/female-avatar-icon-royalty-free-illustration/1330274628>
     - Peter profile picture: <https://www.vecteezy.com/vector-art/7043161-male-avatar-smiling-portrait-of-a-cheerful-young-man-with-a-happy-smile>
-- About section history pictures courtesy of:
-    - Startup: <https://www.startupdonut.co.uk/business-planning/write-a-business-plan/start-up-business-plan-top-10-tips>
-    - Customer: <https://www.dreamstime.com/female-customer-shaking-hands-real-estate-agent-agreeing-to-sign-contract-standing-new-modern-studio-apartment-image104734412>
-    - Move: <https://www.moving.com/tips/11-tips-for-when-youre-moving-to-a-new-office-space/>
-    - Team: <https://thegulfentrepreneur.com/leadership/the-importance-of-keeping-a-happy-and-motivated-team/>
-    - Awards: <https://imeetcentral.com/do-advertising-awards-matter>
-    - Stability: <https://www.online-therapy.com/blog/borderline-personality-disorder-vs-stability-life/>
-    - Expansion: <https://www.corporatecomplianceinsights.com/global-expansion-pandemic-solutions-compliant/>
-    - Yuppie: <https://www.thetimes.co.uk/article/the-return-of-the-yuppie-but-not-as-you-know-it-j6rdjdmw9>
-    - Domination: <https://tenor.com/en-GB/view/rihanna-world-domination-planet-earth-galaxy-impact-gif-20536471>
     - Navigation bar and social media icons provided by: <https://www.fontawesome.com>
 
 ## Acknowledgments
 
 **Written by** ***Richard Messenger***
+[Back to Top](#Market-Win, Milestone Project 1)
