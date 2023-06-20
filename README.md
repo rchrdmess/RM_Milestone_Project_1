@@ -73,7 +73,7 @@ The key goal is to convey the company's experience and ethos through a straight-
 - Easy navigation
 - Clear colour contrast for visually impaired users  
 [Back to Contents](#Contents)
-
+  
 ## User Experience
 
 ### Target Audience
@@ -182,8 +182,10 @@ The website consists of eight separate pages:
 ![Main image](docs/wireframe_corporate.webp)
 
 ![Main image](docs/wireframe_modal.webp)  
+
 [Back to Contents](#Contents)  
-## Technologies
+  
+## Technologies Used
 
 ### Languages
 
@@ -205,8 +207,10 @@ The website consists of eight separate pages:
 - [EZ Gif](https://ezgif.com/maker)
 - [Text Editor](https://support.apple.com/en-gb/guide/textedit/welcome/mac)
 - [Google Chrome](https://www.google.com/chrome/)
-- [Apple Voice Over](https://support.apple.com/en-gb/guide/iphone/iph3e2e415f/ios)  
+- [Apple Voice Over](https://support.apple.com/en-gb/guide/iphone/iph3e2e415f/ios)
+  
 [Back to Contents](#Contents)  
+  
 ## Features
 
 - Navigation Bar
@@ -346,7 +350,8 @@ With a glowing social media presence and a sturdy backend to your website, now a
 
 - Client Login
 - Jobs Portal  
-[Back to Contents](#Contents)  
+[Back to Contents](#Contents)
+  
 ## Testing
 
 All functions work as intended. There are no dead or erroneous links.
@@ -701,7 +706,9 @@ The website was tested on the following browsers:
     <img src="docs/404_redirect.webp">  
 </details>
 <br>
-
+  
+[Back to Contents](#Contents)  
+  
 ## Bugs
 
 On initial inspection via Google Chrome's inspect tool, it became clear that the navigation menu did not display correctly on older (narrow screen) phones. The links were too wide and stacked awkwardly. To remedy this, a responsive menu was added to create a drop down effect on screens narrower than 590 px. This limit was chosen to prevent the awkward stacking on desktop browsers when the window was narrowed.
